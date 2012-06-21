@@ -1,2 +1,8 @@
-vim/vimfiles        etc/vim
-vim/vimrc.local     etc/vim
+vim/vimfiles/autoload   etc/vim
+vim/vimfiles/bundle     etc/vim
+vim/vimfiles/doc        etc/vim
+vim/vimfiles/ftdetect   etc/vim
+vim/vimfiles/indent     etc/vim
+vim/vimfiles/plugin     etc/vim
+vim/vimfiles/syntax     etc/vim
+vim/vimrc.local         etc/vim
