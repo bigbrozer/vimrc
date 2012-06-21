@@ -1,0 +1,12 @@
+[submodule "vim/vimfiles/bundle/vim-puppet"]
+	path = vim/vimfiles/bundle/vim-puppet
+	url = http://github.com/rodjek/vim-puppet.git
+[submodule "vim/vimfiles/bundle/snipmate"]
+	path = vim/vimfiles/bundle/snipmate
+	url = http://github.com/msanders/snipmate.vim.git
+[submodule "vim/vimfiles/bundle/vim-easytags"]
+	path = vim/vimfiles/bundle/vim-easytags
+	url = http://github.com/xolox/vim-easytags.git
+[submodule "vim/vimfiles/bundle/molokai"]
+	path = vim/vimfiles/bundle/molokai
+	url = http://github.com/tomasr/molokai.git
