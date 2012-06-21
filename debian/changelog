@@ -1,3 +1,9 @@
+system-vim-config (1.0.1) stable; urgency=low
+
+  * Added dependencies on vim and vim-gnome.
+
+ -- Vincent BESANCON <vincent.besancon@faurecia.com>  Thu, 21 Jun 2012 14:22:27 +0200
+
 system-vim-config (1.0.0) stable; urgency=low
 
   * Initial Release.
