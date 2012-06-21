@@ -1,4 +1,4 @@
-system-vim-config (1.0.0) unstable; urgency=low
+system-vim-config (1.0.0) stable; urgency=low
 
   * Initial Release.
 
