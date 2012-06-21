@@ -1,0 +1,15 @@
+Source: system-vim-config
+Section: unknown
+Priority: extra
+Maintainer: Vincent BESANCON <vincent.besancon@faurecia.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Vcs-Git: http://monitoring-dc.app.corp/git/lib/vimrc.git
+Vcs-Browser: http://monitoring-dc.app.corp/git/?p=lib/vimrc.git
+
+
+Package: system-vim-config
+Architecture: all
+Depends: exuberant-ctags
+Description: System wide Vim configuration
+ This package setup the system-wide Vim/Gvim configuration.
