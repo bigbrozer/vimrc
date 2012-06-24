@@ -10,3 +10,6 @@
 [submodule "vim/vimfiles/bundle/molokai"]
 	path = vim/vimfiles/bundle/molokai
 	url = http://github.com/tomasr/molokai.git
+[submodule "vim/vimfiles/bundle/surround"]
+	path = vim/vimfiles/bundle/surround
+	url = http://github.com/tpope/vim-surround.git
