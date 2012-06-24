@@ -1,3 +1,13 @@
+system-vim-config (1.0.2) stable; urgency=low
+
+  * Handling submodules is now the default.
+  * Added a README.
+  * New plugin vim-surround.
+  * Set hlsearch by default.
+  * Enable incremental search.
+
+ -- Vincent BESANCON <vincent.besancon@faurecia.com>  Sun, 24 Jun 2012 15:34:22 +0200
+
 system-vim-config (1.0.1) stable; urgency=low
 
   * Added dependencies on vim and vim-gnome.
