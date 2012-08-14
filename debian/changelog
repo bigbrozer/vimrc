@@ -1,3 +1,11 @@
+system-vim-config (1.0.2ubuntu1~5.gbpcafac2) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @cafac2faf522137b661b20b4d6229fe6cf1c1cc8 **
+
+  * Tweaked Minibuf.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 15 Aug 2012 00:31:52 +0200
+
 system-vim-config (1.0.2ubuntu1~4.gbp27082f) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @27082f6e2bdfde56cd238bcee051e7ee97da3cf6 **
