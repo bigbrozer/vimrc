@@ -1,6 +1,7 @@
 " Be IMProved !
 call pathogen#infect()
 
+set updatetime=4000
 set nocompatible
 
 filetype on
@@ -68,9 +69,6 @@ iab <expr> cfile expand('%:t:r')
 " Completion with Ctrl-Space
 imap <C-Space> <C-X><C-O>
 
-" Map commands
-map <F3> <ESC>:TlistToggle<CR>
-
 " Window size
 " GUI ONLY !
 "
@@ -84,6 +82,9 @@ endif
 
 " ========== Plugin Settings =========="
 
-" Mapping to NERDTree
-nnoremap <C-N> :NERDTreeToggle<cr>
+" Taglist
+nnoremap <F3> <ESC>:TlistToggle<CR>
+
+" NERDTree
+nnoremap <F4> <ESC>:NERDTreeToggle<CR>
 
