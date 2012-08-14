@@ -1,20 +1,18 @@
-default:
-
-full-clean: clean clean-deb
-
-clean: py-bytecode backup-files
+# Main targets
+clean: clean-bytecode clean-backup
 	@dh_clean
 
-clean-deb:
+distclean: clean
 	@echo "Cleaning package creation directory..."
 	@rm -rf ./pkg-build
 
-py-bytecode:
+# Sub targets
+clean-bytecode:
 	@echo 'Cleaning Python byte code files...'
 	@find . -name '*.pyc' -exec rm -f {} +
 	@find . -name '*.pyo' -exec rm -f {} +
 
-backup-files:
+clean-backup:
 	@echo 'Cleaning backup files...'
 	@find . -name '*~' -exec rm -f {} +
 	@find . -name '#*#' -exec rm -f {} +
