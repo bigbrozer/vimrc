@@ -1,3 +1,12 @@
+system-vim-config (1.0.2ubuntu1~4.gbp27082f) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @27082f6e2bdfde56cd238bcee051e7ee97da3cf6 **
+
+  * Added new plugin Nerd Commenter.
+  * Added some shortcuts in README.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 15 Aug 2012 00:24:15 +0200
+
 system-vim-config (1.0.2ubuntu1~3.gbp2cc173) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @2cc173e99f72bd9bfea5e538694602d2544002de **
