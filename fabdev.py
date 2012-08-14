@@ -18,5 +18,4 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #===============================================================================
 
-from monitoring.fabric.deb import release, bugfix
-
+from monitoring.fabric.deb import *
