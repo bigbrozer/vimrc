@@ -1,3 +1,12 @@
+system-vim-config (1.0.2ubuntu1~3.gbp2cc173) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @2cc173e99f72bd9bfea5e538694602d2544002de **
+
+  * Fixed updatetime warning. Use F4 to show NerdTree.
+  * Added new plugin NerdTree.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 15 Aug 2012 00:15:12 +0200
+
 system-vim-config (1.0.2ubuntu1~2.gbp9a17bf) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @9a17bfa679287cb0ced7b5e1a04bfda61a2e0dc4 **
