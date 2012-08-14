@@ -1,3 +1,11 @@
+system-vim-config (1.0.2ubuntu1~2.gbp9a17bf) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @9a17bfa679287cb0ced7b5e1a04bfda61a2e0dc4 **
+
+  * Make git-builpackage handles submodules.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 15 Aug 2012 00:01:13 +0200
+
 system-vim-config (1.0.2ubuntu1~1.gbp1d22fa) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @1d22fa869284ae4f29888501ae826a8b40a824c8 **
