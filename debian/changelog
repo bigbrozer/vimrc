@@ -1,3 +1,13 @@
+system-vim-config (1.0.2ubuntu1~1.gbp1d22fa) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @1d22fa869284ae4f29888501ae826a8b40a824c8 **
+
+  * Added plugin MiniBufExplorer. Use <CTRL-N> to invoke.
+  * Upgraded fabfiles to latest monitoring.fabric release.
+  * Updated Makefile. Added target distclean.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Tue, 14 Aug 2012 23:51:52 +0200
+
 system-vim-config (1.0.2) stable; urgency=low
 
   * Handling submodules is now the default.
