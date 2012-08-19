@@ -1,3 +1,12 @@
+system-vim-config (1.0.2ubuntu1~6.gbp7ea54c) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @7ea54c20296bf6b7fe21a11ed5291634b327dd01 **
+
+  * Remove plugin vim-easytags. Replaced by vim-tagbar.
+  * Install plugin tagbar. Configure <F3> to open tag browser.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Sun, 19 Aug 2012 21:34:36 +0200
+
 system-vim-config (1.0.2ubuntu1~5.gbpcafac2) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @cafac2faf522137b661b20b4d6229fe6cf1c1cc8 **
