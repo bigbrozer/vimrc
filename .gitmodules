@@ -19,3 +19,6 @@
 [submodule "vim/vimfiles/bundle/nerdcommenter"]
 	path = vim/vimfiles/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/vimfiles/bundle/tagbar"]
+	path = vim/vimfiles/bundle/tagbar
+	url = http://github.com/majutsushi/tagbar

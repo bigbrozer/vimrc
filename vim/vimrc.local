@@ -89,7 +89,7 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 
 " Taglist
-nnoremap <F3> <ESC>:TlistToggle<CR>
+nmap <F3> <ESC>:TagbarToggle<CR>
 
 " NERDTree
 nnoremap <F4> <ESC>:NERDTreeToggle<CR>
