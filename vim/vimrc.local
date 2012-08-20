@@ -1,7 +1,6 @@
 " Be IMProved !
 call pathogen#infect()
 
-set updatetime=4000
 set nocompatible
 
 filetype on
