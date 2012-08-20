@@ -1,3 +1,9 @@
+system-vim-config (1.0.3) stable; urgency=low
+
+  * Release v1.0.3. Includes all changes of snapshots below.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Mon, 20 Aug 2012 11:20:07 +0200
+
 system-vim-config (1.0.2ubuntu1~6.gbp7ea54c) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @7ea54c20296bf6b7fe21a11ed5291634b327dd01 **
