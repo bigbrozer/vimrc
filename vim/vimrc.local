@@ -53,7 +53,7 @@ syntax on
 syntax sync fromstart
 
 " Theme
-color "oh-la-la"
+color oh-la-la
 set cursorline
 highlight CursorLine cterm=NONE ctermbg=DarkGrey guibg=Grey10
 
