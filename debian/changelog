@@ -1,3 +1,10 @@
+system-vim-config (1.0.4) stable; urgency=low
+
+  * Removed "set updatetime". This was done to try fixing warning from easytag plugin but as it is replaced now...
+  * Switch default theme to oh-là-là.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Mon, 20 Aug 2012 17:50:09 +0200
+
 system-vim-config (1.0.3) stable; urgency=low
 
   * Release v1.0.3. Includes all changes of snapshots below.
