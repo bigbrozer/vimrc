@@ -22,3 +22,6 @@
 [submodule "vim/vimfiles/bundle/tagbar"]
 	path = vim/vimfiles/bundle/tagbar
 	url = http://github.com/majutsushi/tagbar
+[submodule "vim/vimfiles/bundle/oh-l-l"]
+	path = vim/vimfiles/bundle/oh-l-l
+	url = http://github.com/vim-scripts/oh-l-l.git
