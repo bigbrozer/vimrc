@@ -1,3 +1,11 @@
+system-vim-config (1.0.4ubuntu1~1.gbp9169c4) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @9169c42aad3e364a96cedb94596c8b57c0996d88 **
+
+  * Fixed theme name.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Mon, 20 Aug 2012 17:52:02 +0200
+
 system-vim-config (1.0.4) stable; urgency=low
 
   * Removed "set updatetime". This was done to try fixing warning from easytag plugin but as it is replaced now...
