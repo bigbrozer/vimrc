@@ -1,3 +1,11 @@
+system-vim-config (1.0.4ubuntu1~2.gbpa827d5) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @a827d517d2f095f434d1a811ff983bbe5f6f2828 **
+
+  * Switched back to molokai theme.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Mon, 27 Aug 2012 12:45:36 +0200
+
 system-vim-config (1.0.4ubuntu1~1.gbp9169c4) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @9169c42aad3e364a96cedb94596c8b57c0996d88 **
