@@ -50,10 +50,9 @@ set nofoldenable
 
 " Syntax
 syntax on
-syntax sync fromstart
 
 " Theme
-color oh-la-la
+color molokai
 set cursorline
 highlight CursorLine cterm=NONE ctermbg=DarkGrey guibg=Grey10
 
