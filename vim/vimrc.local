@@ -1,31 +1,33 @@
-" Be IMProved !
+"===============================================================================
+" Vim Configuration
+" Author: Vincent BESANCON <besancon.vincent@gmail.com>
+"===============================================================================
+"
+" Init pathogen (load all the stuff in vimfiles/bundle/)
 call pathogen#infect()
 
+" Be improved !
 set nocompatible
 
+" Enable full filetype detection
 filetype on
 filetype plugin on
 filetype indent on
 
-" Set omni func for completion
-if has("autocmd") && exists("+omnifunc")
-    autocmd Filetype *
-                \	if &omnifunc == "" |
-                \		setlocal omnifunc=syntaxcomplete#Complete |
-                \	endif
-endif
+" Enable Omnifunc completion for all languages
+set omnifunc=syntaxcomplete#Complete
 
-" Search incremental
+" Incremental search
 set incsearch
 
-" Show lines nums
+" Show line numbers
 set number
 set cc=+1
 
-" Working directory
+" Go inside Working directory of current opened file
 set autochdir
 
-" Indent
+" Indentation
 set autoindent
 
 " Status line
@@ -64,8 +66,6 @@ set modeline
 "
 " Insert current filename without extension
 iab <expr> cfile expand('%:t:r')
-" Completion with Ctrl-Space
-imap <C-Space> <C-X><C-O>
 
 " Window size
 " GUI ONLY !
@@ -85,6 +85,7 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
+nmap <F2> <ESC>:MiniBufExplorer<CR>
 
 " Taglist
 nmap <F3> <ESC>:TagbarToggle<CR>
