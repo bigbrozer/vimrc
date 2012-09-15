@@ -1,3 +1,11 @@
+system-vim-config (1.0.5) stable; urgency=low
+
+  * Updated submodules to latest HEAD.
+  * Clean vimrc.local.
+  * New plugin: reminder. Shows reminder with <F1>.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Sat, 15 Sep 2012 18:10:11 +0200
+
 system-vim-config (1.0.4ubuntu1~2.gbpa827d5) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @a827d517d2f095f434d1a811ff983bbe5f6f2828 **
