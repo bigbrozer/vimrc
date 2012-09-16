@@ -1,11 +1,9 @@
-system-vim-config (1.0.9~1.gbpa6fb6c) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @a6fb6c1ba015564c17d121410ff7c3ac2aa01c94 **
+system-vim-config (1.0.9) stable; urgency=low
 
   * Deleted old taglist plugin. Replaced by tagbar.
   * Delete duplicates of puppet syntax file.
 
- -- Vincent BESANCON <besancon.vincent@gmail.com>  Sun, 16 Sep 2012 23:34:40 +0200
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Sun, 16 Sep 2012 23:59:03 +0200
 
 system-vim-config (1.0.8) stable; urgency=low
 
