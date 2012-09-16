@@ -1,3 +1,9 @@
+system-vim-config (1.0.6) stable; urgency=low
+
+  * Set gui font to Inconsolata. Make package depends on it.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Sun, 16 Sep 2012 22:28:02 +0200
+
 system-vim-config (1.0.5) stable; urgency=low
 
   * Updated submodules to latest HEAD.
