@@ -75,6 +75,8 @@ if (has("gui_running"))
     set lines=40
     if has('win32')
         set guifont=Lucida_Console:h10:cDEFAULT
+    else
+        set guifont=Inconsolata\ Medium\ 12
     endif
 endif
 
