@@ -1,3 +1,10 @@
+system-vim-config (1.0.8) stable; urgency=low
+
+  * Updated tagbar plugin.
+  * Updated vim-nagios. Detect custom vars.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Sun, 16 Sep 2012 23:09:21 +0200
+
 system-vim-config (1.0.7) stable; urgency=low
 
   * Add new syntax plugin for Nagios configuration files.
