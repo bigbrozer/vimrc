@@ -1,3 +1,9 @@
+system-vim-config (1.0.7) stable; urgency=low
+
+  * Add new syntax plugin for Nagios configuration files.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Sun, 16 Sep 2012 22:48:15 +0200
+
 system-vim-config (1.0.6) stable; urgency=low
 
   * Set gui font to Inconsolata. Make package depends on it.
