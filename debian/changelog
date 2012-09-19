@@ -1,3 +1,9 @@
+system-vim-config (1.0.10) stable; urgency=low
+
+  * Updated vim-nagios syntax plugin.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 19 Sep 2012 10:09:23 +0200
+
 system-vim-config (1.0.9) stable; urgency=low
 
   * Deleted old taglist plugin. Replaced by tagbar.
