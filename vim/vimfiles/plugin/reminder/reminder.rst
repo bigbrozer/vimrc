@@ -81,6 +81,8 @@ n n                             search next.
 n N                             search prev.
 c :%s/old/new/g                 search ``old`` and replace by ``new`` in whole
                                 file.
+n g;                            Search next last modification in file.
+n g,                            Search previous last modification in file.
 
 Abbreviations
 =============
