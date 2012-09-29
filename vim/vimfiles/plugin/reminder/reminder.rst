@@ -11,7 +11,7 @@ Legend
 n - use in normal mode (<ESC>)
 i - use in insert mode (<ESC>i, <ESC>a)
 c - use in command mode (<ESC>:)
-v - use in visual mode (<ESC>v, <ESC><SHIFT>-v, <ESC>^v)
+v - use in visual mode (<ESC>v, <ESC>V, <ESC>^v)
 
 ^ means press on <CTRL> key.
 
@@ -20,7 +20,7 @@ Movement / Display
 
 n h,j,k,l,arrow keys            move cursor.
 n ^ARROW_KEYS                   move between windows.
-n <SHIFT>-0                     set cursor start of the line.
+n 0                             set cursor start of the line.
 n $                             set cursor start of the line.
 n I                             insert at the beginning of the line.
 n A                             insert at the end of the line.
@@ -29,12 +29,25 @@ n <F2>                          Active MiniBuffExplorer.
 n <F3>                          show tags (functions, variables, etc...)
 n <F4>                          show file browser.
 
+Text editing
+============
+
+n ciw                           replace current word.
+n ci{char}                      replace text surrounded by {char}, use this to
+                                replace text surrounded by quotes. eg. vi"
+n diw                           delete current word.
+n dd                            delete current line.
+n d$                            delete from cursor to the end of the line.
+n d0                            delete from cursor to the start of the line.
+
 Select text
 ===========
 
 n v                             select text.
-n <SHIFT>-v                     select whole lines.
+n V                             select whole lines.
 n ^v                            select in columns.
+n vi{char}                      select text surrounded by {char}, use this to
+                                select text surrounded by quotes. eg. vi"
 v :sort                         sort selected lines.
 
 Copy / Paste
