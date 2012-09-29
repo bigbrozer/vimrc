@@ -1,3 +1,9 @@
+system-vim-config (1.0.11) stable; urgency=low
+
+  * Added more commands to reminder.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Sat, 29 Sep 2012 16:21:36 +0200
+
 system-vim-config (1.0.10) stable; urgency=low
 
   * Updated vim-nagios syntax plugin.
