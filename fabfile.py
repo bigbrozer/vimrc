@@ -1,6 +1,5 @@
 # -*- coding: UTF-8 -*-
 #===============================================================================
-# Filename      : fabfile.py
 # Author        : Vincent BESANCON <besancon.vincent@gmail.com>
 # Description   : fabric tasks
 #-------------------------------------------------------------------------------
@@ -18,5 +17,5 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #===============================================================================
 
-from monitoring.fabric.deb import release, bugfix
+from monitoring.fabric import package
 

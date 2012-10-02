@@ -1,8 +1,7 @@
 # -*- coding: UTF-8 -*-
 #===============================================================================
-# Filename      : fabfile.py
 # Author        : Vincent BESANCON <besancon.vincent@gmail.com>
-# Description   : fabric tasks
+# Description   : fabric tasks (DEVELOPMENT)
 #-------------------------------------------------------------------------------
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -18,4 +17,5 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #===============================================================================
 
-from monitoring.fabric.deb import *
+from monitoring.fabric import package
+from monitoring.fabric.package import test
