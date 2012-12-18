@@ -14,6 +14,9 @@ filetype on
 filetype plugin on
 filetype indent on
 
+let g:xml_syntax_folding=1
+au FileType xml setlocal foldmethod=syntax
+
 " Enable Omnifunc completion for all languages
 set omnifunc=syntaxcomplete#Complete
 
