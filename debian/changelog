@@ -1,3 +1,12 @@
+system-vim-config (1.0.14) quantal; urgency=low
+
+  * Updated all plugins to latest version.
+  * New plugin: tablify.
+  * Added doc for formatting text.
+  * Added some comments.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Mon, 07 Jan 2013 12:00:58 +0100
+
 system-vim-config (1.0.13) precise; urgency=low
 
   * Remove unused fabdev.py.
