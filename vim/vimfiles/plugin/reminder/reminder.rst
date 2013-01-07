@@ -2,8 +2,8 @@
 VIM/VI Reminder
 ===============
 
-Reminder of all useful shortcuts that are used in Vim/Vi editors.
-This works both with gVim and in console.
+Reminder of all useful shortcuts that are used in Vim/Vi editors.  This works
+both with gVim and in console.
 
 Legend
 ------
@@ -39,6 +39,8 @@ n diw                           delete current word.
 n dd                            delete current line.
 n d$                            delete from cursor to the end of the line.
 n d0                            delete from cursor to the start of the line.
+n gqq                           format text between 80 cols.
+v gq                            format selected lines between 80 cols.
 
 Select text
 ===========
