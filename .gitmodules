@@ -21,10 +21,13 @@
 	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "vim/vimfiles/bundle/tagbar"]
 	path = vim/vimfiles/bundle/tagbar
-	url = http://github.com/majutsushi/tagbar
+	url = http://github.com/majutsushi/tagbar.git
 [submodule "vim/vimfiles/bundle/oh-l-l"]
 	path = vim/vimfiles/bundle/oh-l-l
 	url = http://github.com/vim-scripts/oh-l-l.git
 [submodule "vim/vimfiles/bundle/vim-nagios"]
 	path = vim/vimfiles/bundle/vim-nagios
 	url = http://github.com/bigbrozer/vim-nagios.git
+[submodule "vim/vimfiles/bundle/tablify"]
+	path = vim/vimfiles/bundle/tablify
+	url = http://github.com/Stormherz/tablify.git
