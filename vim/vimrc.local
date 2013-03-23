@@ -5,6 +5,7 @@
 "
 " Init pathogen (load all the stuff in vimfiles/bundle/)
 call pathogen#infect()
+call pathogen#helptags()
 
 " Be improved !
 set nocompatible
