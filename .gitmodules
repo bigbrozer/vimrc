@@ -31,3 +31,6 @@
 [submodule "vim/vimfiles/bundle/tablify"]
 	path = vim/vimfiles/bundle/tablify
 	url = http://github.com/Stormherz/tablify.git
+[submodule "vim/vimfiles/bundle/python-mode"]
+	path = vim/vimfiles/bundle/python-mode
+	url = http://github.com/klen/python-mode.git
