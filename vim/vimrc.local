@@ -61,7 +61,7 @@ syntax on
 " Theme
 color molokai
 set cursorline
-highlight CursorLine cterm=NONE ctermbg=DarkGrey guibg=Grey10
+" highlight CursorLine ctermbg=234
 
 " Modeline support
 set modeline
