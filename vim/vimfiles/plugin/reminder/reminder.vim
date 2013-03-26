@@ -17,7 +17,7 @@ function! Reminder()
         set nonumber
         set syntax=rst
         highlight Mode ctermfg=white ctermbg=blue guifg=white guibg=blue
-        3match Mode /^[nicv]/
+        3match Mode /^[niacv,]+/
     else
         bdelete Reminder
         let g:reminderDisplay = 0

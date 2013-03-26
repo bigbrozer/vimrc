@@ -9,7 +9,8 @@ Legend
 ------
 
 n - use in normal mode (<ESC>)
-i - use in insert mode (<ESC>i, <ESC>a)
+i - use in insert mode (<ESC>i)
+a - use in append mode (<ESC>a)
 c - use in command mode (<ESC>:)
 v - use in visual mode (<ESC>v, <ESC>V, <ESC>^v)
 
@@ -61,6 +62,34 @@ n y$                            copy from cursor position to end of the line.
 n yw                            copy word.
 n p                             paste before current character.
 n P                             paste after current character.
+
+Python
+======
+
+n K                             Show python docs (g:pymode_doc enabled)
+a <C-Space>                     Rope autocomplete (g:pymode_rope enabled)
+a <C-c>g                        Rope goto definition  (g:pymode_rope enabled)
+a <C-c>d                        Rope show documentation  (g:pymode_rope enabled)
+a <C-c>f                        Rope find occurrences  (g:pymode_rope enabled)
+a <Leader>r                     Run python  (g:pymode_run enabled)
+a <Leader>b                     Set, unset breakpoint (g:pymode_breakpoint
+                                enabled)
+[[                              Jump on previous class or function (normal,
+                                visual, operator modes)
+]]                              Jump on next class or function  (normal, visual,
+                                operator modes)
+[M                              Jump on previous class or method (normal,
+                                visual, operator modes)
+]M                              Jump on next class or method (normal, visual,
+                                operator modes)
+a C C                           Select a class. Ex: vaC, daC, dC, yaC, yC, caC,
+                                cC (normal, operator modes)                 
+i C                             Select inner class. Ex: viC, diC, yiC, ciC
+                                (normal, operator modes)
+a M M                           Select a function or method. Ex: vaM, daM, dM,
+                                yaM, yM, caM, cM (normal, operat or modes)
+i M                             Select inner function or method. Ex: viM, diM,
+                                yiM, ciM (normal, operator modes)
 
 Comments
 ========
