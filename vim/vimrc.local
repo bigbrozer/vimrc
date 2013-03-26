@@ -87,6 +87,9 @@ endif
 
 " ========== Plugin Settings =========="
 
+" Disable pylint checking every save
+let g:pymode_lint_write = 0
+
 " Minibuf
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
