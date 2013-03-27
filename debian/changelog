@@ -1,3 +1,15 @@
+system-vim-config (1.1.0) quantal; urgency=low
+
+  * New module: python-mode.
+  * Updated all submodules to latest release.
+  * Generate help tags at loading time.
+  * [vimrc] do not run pylint on save.
+  * [reminder] added python-mode command help.
+  * Deleted submodule oh-l-l. Not used theme.
+  * [theme] set default CursorLine controlled by theme.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 27 Mar 2013 09:20:30 +0100
+
 system-vim-config (1.0.14) quantal; urgency=low
 
   * Updated all plugins to latest version.
