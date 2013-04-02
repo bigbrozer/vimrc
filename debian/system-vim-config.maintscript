@@ -1,2 +1,4 @@
 rm_conffile /etc/vim/autoload/vimproved_search.vim
 rm_conffile /etc/vim/autoload/DrawIt.vim
+rm_conffile /etc/vim/doc/DrawIt.txt
+rm_conffile /etc/vim/plugin/DrawItPlugin.vim

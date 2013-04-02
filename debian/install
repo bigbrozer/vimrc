@@ -1,6 +1,5 @@
 vim/vimfiles/autoload   etc/vim
 vim/vimfiles/bundle     etc/vim
-vim/vimfiles/doc        etc/vim
 vim/vimfiles/ftdetect   etc/vim
 vim/vimfiles/indent     etc/vim
 vim/vimfiles/plugin     etc/vim
