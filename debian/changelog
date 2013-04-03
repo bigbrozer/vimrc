@@ -1,3 +1,16 @@
+system-vim-config (1.1.1) quantal; urgency=low
+
+  * [pathogen] upgraded to v2.2.
+  * Removed autoload vimproved search.
+  * Cleaned vimrc config.
+  * Make use of dpkg-maintscript-helper to remove old conffiles.
+  * Deleted DrawIt plugin. Not very useful.
+  * Fixed lintian warning: debhelper-maintscript-needs-versioned-build-depends.
+  * Suggest vim-gnome instead of having it as dependency.
+  * Mark /etc/vim/doc/tags to be removed.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 03 Apr 2013 10:28:53 +0200
+
 system-vim-config (1.1.0) quantal; urgency=low
 
   * New module: python-mode.
