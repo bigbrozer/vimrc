@@ -66,6 +66,7 @@ n P                             paste after current character.
 Python
 ======
 
+n \pyl                          Check your code with PyLint
 n K                             Show python docs (g:pymode_doc enabled)
 a <C-Space>                     Rope autocomplete (g:pymode_rope enabled)
 a <C-c>g                        Rope goto definition  (g:pymode_rope enabled)
@@ -134,6 +135,7 @@ Abbreviations
 Type the following words to have them replaced.
 
 i cfile                         expand current file name withour extension.
+i dts                           insert the current date as %Y-%m-%d.
 
 Windows
 =======

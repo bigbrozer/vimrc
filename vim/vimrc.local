@@ -79,6 +79,9 @@ set modeline
 " Insert current filename without extension
 iab <expr> cfile expand('%:t:r')
 
+" Insert the date of the form %Y-%m-%d
+iab <expr> dts strftime("%c")
+
 " Window size
 " GUI ONLY !
 "
@@ -94,19 +97,28 @@ endif
 
 " ========== Plugin Settings =========="
 
+" Python mode
+"
+" Check code with pylint
+nnoremap \pyl <ESC>:PyLint<CR>
+
 " Disable pylint checking every save
 let g:pymode_lint_write = 0
 
 " Minibuf
+"
+let g:miniBufExplCheckDupeBufs = 0
+let g:miniBufExplUseSingleClick = 1
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
-nmap <F2> <ESC>:MiniBufExplorer<CR>
+nnoremap <F2> <ESC>:MiniBufExplorer<CR>
 
 " Taglist
-nmap <F3> <ESC>:TagbarToggle<CR>
+"
+nnoremap <F3> <ESC>:TagbarToggle<CR>
 
 " NERDTree
+"
 nnoremap <F4> <ESC>:NERDTreeToggle<CR>
-
