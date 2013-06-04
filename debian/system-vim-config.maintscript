@@ -3,3 +3,12 @@ rm_conffile /etc/vim/autoload/DrawIt.vim
 rm_conffile /etc/vim/doc/DrawIt.txt
 rm_conffile /etc/vim/doc/tags
 rm_conffile /etc/vim/plugin/DrawItPlugin.vim
+rm_conffile /etc/vim/bundle/nerdtree/plugin/nerdtree/bookmark.vim
+rm_conffile /etc/vim/bundle/nerdtree/plugin/nerdtree/creator.vim
+rm_conffile /etc/vim/bundle/nerdtree/plugin/nerdtree/key_map.vim
+rm_conffile /etc/vim/bundle/nerdtree/plugin/nerdtree/menu_controller.vim
+rm_conffile /etc/vim/bundle/nerdtree/plugin/nerdtree/menu_item.vim
+rm_conffile /etc/vim/bundle/nerdtree/plugin/nerdtree/opener.vim
+rm_conffile /etc/vim/bundle/nerdtree/plugin/nerdtree/path.vim
+rm_conffile /etc/vim/bundle/nerdtree/plugin/nerdtree/tree_dir_node.vim
+rm_conffile /etc/vim/bundle/nerdtree/plugin/nerdtree/tree_file_node.vim
