@@ -1,3 +1,12 @@
+system-vim-config (1.1.2) precise; urgency=low
+
+  * Updated all plugins to latest upstream.
+  * Fix lintian warning: preinst-uses-dpkg-maintscript-helper-without-predepends
+  * Mark old conf files to be deleted.
+  * Added postinst script to clean things.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 05 Jun 2013 16:50:25 +0200
+
 system-vim-config (1.1.1) quantal; urgency=low
 
   * [pathogen] upgraded to v2.2.
