@@ -15,5 +15,6 @@ clean-bytecode:
 clean-backup:
 	@echo 'Cleaning backup files...'
 	@find . -name '*~' -exec rm -f {} +
+	@find . -name '*.swp' -exec rm -f {} +
 	@find . -name '#*#' -exec rm -f {} +
 

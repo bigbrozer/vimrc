@@ -9,5 +9,28 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+PACKAGE = $(shell dh_listpackages)
+TMP 	= $(CURDIR)/debian/$(PACKAGE)
+
 %:
 	dh $@ 
+
+override_dh_install:
+	dh_install
+	
+	# Delete git files
+	find ${TMP} -name ".gitignore" -exec rm {} \;
+	
+	# Remove executable bit from some files
+	find ${TMP}/etc/vim/bundle/powerline -type f -executable \
+		-exec chmod -x {} \;
+	find ${TMP}/etc/vim/bundle/tlib_vim -type f -executable \
+		-exec chmod -x {} \;
+	find ${TMP}/etc/vim/bundle/vim-snippets -type f -executable \
+		-exec chmod -x {} \;
+	
+	# Fix perms
+	chmod +x ${TMP}/etc/vim/bundle/powerline/fontpatcher/fontpatcher
+	chmod +x ${TMP}/etc/vim/bundle/python-mode/pylibs/autopep8.py
+	chmod +x ${TMP}/etc/vim/bundle/python-mode/pylibs/pylama/pep8.py
+	chmod +x ${TMP}/etc/vim/bundle/python-mode/pylibs/ropemode/tests/decorators_test.py
