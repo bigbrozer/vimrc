@@ -42,6 +42,8 @@ n d$                            delete from cursor to the end of the line.
 n d0                            delete from cursor to the start of the line.
 n gqq                           format text between 80 cols.
 v gq                            format selected lines between 80 cols.
+n w!!                           save using sudo (useful if you have forgotten to
+                                open vi with sudo !)
 
 Select text
 ===========

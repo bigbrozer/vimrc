@@ -88,6 +88,9 @@ set incsearch
 " Disable search highlighting with <CR> in normal mode
 nnoremap <CR> :nohlsearch<CR><CR>
 
+" save as sudo
+ca w!! w !sudo tee "%"
+
 " Show line number and right margin
 set number
 set cc=+1
