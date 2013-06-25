@@ -182,3 +182,8 @@ let g:tagbar_autofocus = 1
 " NERDTree
 "
 nnoremap <F3> <ESC>:NERDTreeToggle<CR>
+
+" Powerline
+"
+" Cache directory
+let g:Powerline_cache_file=$HOME."/.cache/vim.powerline_cache_file"
