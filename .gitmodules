@@ -1,9 +1,6 @@
 [submodule "vim/vimfiles/bundle/vim-puppet"]
 	path = vim/vimfiles/bundle/vim-puppet
 	url = http://github.com/rodjek/vim-puppet.git
-[submodule "vim/vimfiles/bundle/snipmate"]
-	path = vim/vimfiles/bundle/snipmate
-	url = http://github.com/msanders/snipmate.vim.git
 [submodule "vim/vimfiles/bundle/molokai"]
 	path = vim/vimfiles/bundle/molokai
 	url = http://github.com/tomasr/molokai.git
@@ -52,3 +49,6 @@
 [submodule "vim/vimfiles/bundle/vim-autoclose"]
 	path = vim/vimfiles/bundle/vim-autoclose
 	url = http://github.com/Townk/vim-autoclose.git
+[submodule "vim/vimfiles/bundle/vim-snipmate"]
+	path = vim/vimfiles/bundle/vim-snipmate
+	url = http://github.com/garbas/vim-snipmate.git
