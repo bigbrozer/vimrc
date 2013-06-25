@@ -34,3 +34,21 @@
 [submodule "vim/vimfiles/bundle/powerline"]
 	path = vim/vimfiles/bundle/powerline
 	url = http://github.com/Lokaltog/vim-powerline.git
+[submodule "vim/vimfiles/bundle/vim-addon-mw-utils"]
+	path = vim/vimfiles/bundle/vim-addon-mw-utils
+	url = http://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "vim/vimfiles/bundle/tlib_vim"]
+	path = vim/vimfiles/bundle/tlib_vim
+	url = http://github.com/tomtom/tlib_vim.git
+[submodule "vim/vimfiles/bundle/vim-snippets"]
+	path = vim/vimfiles/bundle/vim-snippets
+	url = http://github.com/honza/vim-snippets.git
+[submodule "vim/vimfiles/bundle/wombat"]
+	path = vim/vimfiles/bundle/wombat
+	url = http://github.com/vim-scripts/Wombat.git
+[submodule "vim/vimfiles/bundle/AutoComplPop"]
+	path = vim/vimfiles/bundle/AutoComplPop
+	url = http://github.com/vim-scripts/AutoComplPop.git
+[submodule "vim/vimfiles/bundle/vim-autoclose"]
+	path = vim/vimfiles/bundle/vim-autoclose
+	url = http://github.com/Townk/vim-autoclose.git
