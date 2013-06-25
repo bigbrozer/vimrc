@@ -20,7 +20,6 @@ set -e
 
 case "$1" in
     configure)
-        rmdir /etc/vim/bundle/nerdtree/plugin/nerdtree
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
