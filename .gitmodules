@@ -31,3 +31,6 @@
 [submodule "vim/vimfiles/bundle/python-mode"]
 	path = vim/vimfiles/bundle/python-mode
 	url = http://github.com/klen/python-mode.git
+[submodule "vim/vimfiles/bundle/powerline"]
+	path = vim/vimfiles/bundle/powerline
+	url = http://github.com/Lokaltog/vim-powerline.git
