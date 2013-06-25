@@ -21,7 +21,7 @@ set -e
 case "$1" in
     configure)
         # Deprecated bundles (to delete)
-        [[ -d /etc/vim/bundle/snipmate ]] && rm -rf /etc/vim/bundle/snipmate
+        [ -d /etc/vim/bundle/snipmate ] && rm -rf /etc/vim/bundle/snipmate
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
