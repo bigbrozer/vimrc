@@ -4,4 +4,5 @@ vim/vimfiles/ftdetect   etc/vim
 vim/vimfiles/indent     etc/vim
 vim/vimfiles/plugin     etc/vim
 vim/vimfiles/syntax     etc/vim
+vim/vimfiles/snippets   etc/vim
 vim/vimrc.local         etc/vim
