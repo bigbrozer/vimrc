@@ -1,3 +1,20 @@
+system-vim-config (1.1.4) precise; urgency=low
+
+  * [debian] removed deletion of removed directory during postinstall.
+  * [debian] updated dates in copyright.
+  * Updated global config with some elements from fisa config.
+  * [bundle] new bundle: vim-powerline.
+  * [bundle] added a bunch of cool bundles.
+  * Updated bundle vim-nagios syntax.
+  * Replaced snipmate by garbas/vim-snipmate.
+  * Be careful, this is sh !
+  * Define powerline cache file location to ~/.cache/vim.powerline_cache_file.
+  * [debian] rules: override auto install to fix perms.
+  * Save using sudo with w!!
+  * [snippets] global: added FAU snippets.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 26 Jun 2013 19:46:16 +0200
+
 system-vim-config (1.1.3) precise; urgency=low
 
   * Updated submodule "vim-nagios" to latest upstream.
