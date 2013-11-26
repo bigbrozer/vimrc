@@ -1,3 +1,16 @@
+system-vim-config (1.2.0) precise; urgency=low
+
+  * Deep update of all Vim plugins.
+  * Revert admonitions.
+  * Add new theme: Tomorrow-Night.
+  * Relocate vim powerline cache to $HOME.
+  * Fix some perms from rules.
+  * Totally manage /etc/vim by this package.
+  * Add Debian global config file to this package.
+  * This package now replaces some files provided by others.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Tue, 26 Nov 2013 13:53:48 +0100
+
 system-vim-config (1.1.4) precise; urgency=low
 
   * [debian] removed deletion of removed directory during postinstall.
