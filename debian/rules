@@ -32,5 +32,7 @@ override_dh_install:
 	# Fix perms
 	chmod +x ${TMP}/etc/vim/bundle/powerline/fontpatcher/fontpatcher
 	chmod +x ${TMP}/etc/vim/bundle/python-mode/pylibs/autopep8.py
-	chmod +x ${TMP}/etc/vim/bundle/python-mode/pylibs/pylama/pep8.py
+	chmod +x ${TMP}/etc/vim/bundle/python-mode/pylibs/pylama/lint/pylama_pep257/pep257.py
+	chmod +x ${TMP}/etc/vim/bundle/python-mode/pylibs/pylama/lint/pylama_pep8/pep8.py
 	chmod +x ${TMP}/etc/vim/bundle/python-mode/pylibs/ropemode/tests/decorators_test.py
+	chmod +x ${TMP}/etc/vim/bundle/python-mode/Rakefile
