@@ -20,8 +20,8 @@ set -e
 
 case "$1" in
     configure)
-        # Deprecated bundles (to delete)
-        [ -d /etc/vim/bundle/snipmate ] && rm -rf /etc/vim/bundle/snipmate
+        # Setup symlink to the system wide Vim configuration.
+        [ ! -L /etc/vim ] && ln -s /usr/share/system-vim-config /etc/vim
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

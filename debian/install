@@ -1,8 +1,5 @@
-vim/vimfiles/autoload   etc/vim
-vim/vimfiles/bundle     etc/vim
-vim/vimfiles/ftdetect   etc/vim
-vim/vimfiles/indent     etc/vim
-vim/vimfiles/plugin     etc/vim
-vim/vimfiles/syntax     etc/vim
-vim/vimfiles/snippets   etc/vim
-vim/vimrc.local         etc/vim
+vim/vimrc           usr/share/system-vim-config
+vim/vimrc.local     usr/share/system-vim-config
+vim/vimrc.tiny      usr/share/system-vim-config
+vim/gvimrc          usr/share/system-vim-config
+vim/vimfiles/*      usr/share/system-vim-config
