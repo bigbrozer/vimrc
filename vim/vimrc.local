@@ -195,6 +195,9 @@ let g:tagbar_autofocus = 1
 "
 nnoremap <F3> <ESC>:NERDTreeToggle<CR>
 
+" Change CWD on each tree root change
+let NERDTreeChDirMode=2
+
 " Powerline
 "
 " Cache directory
