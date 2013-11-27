@@ -1,3 +1,10 @@
+system-vim-config (1.2.2) precise; urgency=low
+
+  * Disable autochdir.
+  * Remove obsolete config options for MBE.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 27 Nov 2013 17:24:41 +0100
+
 system-vim-config (1.2.1) precise; urgency=low
 
   * New plugin CtrlP (the Fuzzy Finder).
