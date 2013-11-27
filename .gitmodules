@@ -7,9 +7,6 @@
 [submodule "vim/vimfiles/bundle/surround"]
 	path = vim/vimfiles/bundle/surround
 	url = http://github.com/tpope/vim-surround.git
-[submodule "vim/vimfiles/bundle/minibufexpl"]
-	path = vim/vimfiles/bundle/minibufexpl
-	url = http://github.com/fholgado/minibufexpl.vim.git
 [submodule "vim/vimfiles/bundle/nerdtree"]
 	path = vim/vimfiles/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
