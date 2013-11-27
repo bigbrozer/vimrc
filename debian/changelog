@@ -1,3 +1,10 @@
+system-vim-config (1.2.1) precise; urgency=low
+
+  * New plugin CtrlP (the Fuzzy Finder).
+  * NerdTree will no set CWD to the root directory.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 27 Nov 2013 14:11:11 +0100
+
 system-vim-config (1.2.0) precise; urgency=low
 
   * Deep update of all Vim plugins.
