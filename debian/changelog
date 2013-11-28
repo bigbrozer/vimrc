@@ -1,3 +1,11 @@
+system-vim-config (1.2.3) precise; urgency=low
+
+  * Remove plugin minibufexpl.
+  * New plugin bufexplorer (replace MiniBuffExplorer).
+  * F11 brings buffer explorer.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Thu, 28 Nov 2013 14:30:01 +0100
+
 system-vim-config (1.2.2) precise; urgency=low
 
   * Disable autochdir.
