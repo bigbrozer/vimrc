@@ -26,7 +26,7 @@ n $                             set cursor start of the line.
 n I                             insert at the beginning of the line.
 n A                             insert at the end of the line.
 n zz                            center current line on screen.
-n <F2>                          Active MiniBuffExplorer.
+n <F11>                         Active buffer explorer (opened files).
 n <F3>                          show tags (functions, variables, etc...)
 n <F4>                          show file browser.
 

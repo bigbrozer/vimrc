@@ -176,9 +176,11 @@ let g:pyflakes_use_quickfix = 0
 " Fix to let ESC work as espected with Autoclose plugin
 let g:AutoClosePumvisible = {"ENTER": "\<C-Y>", "ESC": "\<ESC>"}
 
-" Minibuf
+" BufExplorer
 "
-let g:miniBufExplUseSingleClick = 1
+noremap <silent> <F11> :BufExplorer<CR>
+noremap <silent> <m-F11> :BufExplorerHorizontalSplit<CR>
+noremap <silent> <c-F11> :BufExplorerVerticalSplit<CR>
 
 " Taglist
 "
