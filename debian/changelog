@@ -1,3 +1,10 @@
+system-vim-config (1.2.4) precise; urgency=low
+
+  * Updated to latest vim-nagios release.
+    Fix a problem detecting gearman conf files syntax.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Tue, 17 Dec 2013 16:15:12 +0100
+
 system-vim-config (1.2.3) precise; urgency=low
 
   * Remove plugin minibufexpl.
