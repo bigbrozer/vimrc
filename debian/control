@@ -11,7 +11,12 @@ Vcs-Browser: http://monitoring-dc.app.corp/git/?p=lib/vimrc.git
 Package: system-vim-config
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.7.2~)
-Depends: ${python:Depends}, ${misc:Depends}, vim, exuberant-ctags, fonts-inconsolata
+Depends:
+    ${misc:Depends},
+    vim,
+    python,
+    exuberant-ctags,
+    fonts-inconsolata
 Suggests: vim-gnome
 Replaces: vim-common, vim-gui-common, vim-tiny
 Description: System wide Vim configuration
