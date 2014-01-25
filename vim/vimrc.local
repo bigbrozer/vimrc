@@ -96,7 +96,7 @@ set number
 set cc=+1
 
 " Go inside Working directory of current opened file
-" set autochdir
+set autochdir
 
 " Indentation
 set autoindent
