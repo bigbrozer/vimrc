@@ -13,7 +13,10 @@ PACKAGE = $(shell dh_listpackages)
 TMP 	= $(CURDIR)/debian/$(PACKAGE)
 
 %:
-	dh $@ 
+	dh $@
+
+override_dh_pysupport:
+	@echo "Do not add pysupport stuff here. Not needed."
 
 override_dh_install:
 	dh_install
