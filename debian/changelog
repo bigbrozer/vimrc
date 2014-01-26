@@ -1,3 +1,15 @@
+system-vim-config (1.2.5) precise; urgency=low
+
+  * Updated all bundle to latest upstream.
+  * Fix perms for new python-mode fs structure.
+  * Rename deprecated python-mode vars and cmds.
+  * Do not let rope (python-mode) scan parent folders to find .ropeproject folders.
+  * Switch to current directory of opened file.
+  * Override dh_pysupport to do nothing.
+  * Depends on python.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Sun, 26 Jan 2014 15:23:15 +0100
+
 system-vim-config (1.2.4) precise; urgency=low
 
   * Updated to latest vim-nagios release.
