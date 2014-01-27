@@ -1,3 +1,9 @@
+system-vim-config (1.2.6) precise; urgency=low
+
+  * NerdTree: switch CWD on tree root changes.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Mon, 27 Jan 2014 21:03:10 +0100
+
 system-vim-config (1.2.5) precise; urgency=low
 
   * Updated all bundle to latest upstream.
