@@ -162,11 +162,14 @@ autocmd FileType python map <buffer> <leader>8 :PymodeLint<CR>
 let g:pymode_lint_checkers = ['pylint', 'pep8']
 
 " rules to ignore (example: "E501,W293")
-let g:pymode_lint_ignore = ""
+let g:pymode_lint_ignore = "W0122"
+
 " don't fold python code on open
 let g:pymode_folding = 0
+
 " load rope by default
 let g:pymode_rope = 1
+
 " Do not let rope scan parent folders
 let g:pymode_rope_lookup_project = 0
 
