@@ -119,6 +119,8 @@ Folding
 =======
 
 n za                            fold / unfold state of one fold.
+n zO                            Open current and subs folds.
+n zC                            Close current and subs folds.
 
 Auto-Completion
 ===============
