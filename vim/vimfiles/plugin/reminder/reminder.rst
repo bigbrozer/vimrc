@@ -68,14 +68,14 @@ n P                             paste after current character.
 Python
 ======
 
-n \pyl                          Check your code with PyLint
+n \8                            Check your code with PyLint+PEP8
 n K                             Show python docs (g:pymode_doc enabled)
 a <C-Space>                     Rope autocomplete (g:pymode_rope enabled)
 a <C-c>g                        Rope goto definition  (g:pymode_rope enabled)
 a <C-c>d                        Rope show documentation  (g:pymode_rope enabled)
 a <C-c>f                        Rope find occurrences  (g:pymode_rope enabled)
-a <Leader>r                     Run python  (g:pymode_run enabled)
-a <Leader>b                     Set, unset breakpoint (g:pymode_breakpoint
+a \r                            Run python  (g:pymode_run enabled)
+a \b                            Set, unset breakpoint (g:pymode_breakpoint
                                 enabled)
 [[                              Jump on previous class or function (normal,
                                 visual, operator modes)
@@ -87,11 +87,11 @@ a <Leader>b                     Set, unset breakpoint (g:pymode_breakpoint
                                 operator modes)
 a C C                           Select a class. Ex: vaC, daC, dC, yaC, yC, caC,
                                 cC (normal, operator modes)                 
-i C                             Select inner class. Ex: viC, diC, yiC, ciC
+a C                             Select inner class. Ex: viC, diC, yiC, ciC
                                 (normal, operator modes)
 a M M                           Select a function or method. Ex: vaM, daM, dM,
                                 yaM, yM, caM, cM (normal, operat or modes)
-i M                             Select inner function or method. Ex: viM, diM,
+a M                             Select inner function or method. Ex: viM, diM,
                                 yiM, ciM (normal, operator modes)
 
 Comments
