@@ -55,3 +55,6 @@
 [submodule "vim/vimfiles/bundle/vim-gitgutter"]
 	path = vim/vimfiles/bundle/vim-gitgutter
 	url = http://github.com/airblade/vim-gitgutter.git
+[submodule "vim/vimfiles/bundle/neocomplcache"]
+	path = vim/vimfiles/bundle/neocomplcache
+	url = http://github.com/Shougo/neocomplcache.vim.git
