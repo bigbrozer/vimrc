@@ -94,6 +94,14 @@ a M M                           Select a function or method. Ex: vaM, daM, dM,
 a M                             Select inner function or method. Ex: viM, diM,
                                 yiM, ciM (normal, operator modes)
 
+Git
+===
+
+n [h                            Move to the previous Git hunk.
+n ]h                            Move to the next Git hunk.
+n \hs                           Stage current hunk under cursor.
+n \hr                           Unstage current hunk under cursor.
+
 Comments
 ========
 
