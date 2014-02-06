@@ -18,6 +18,8 @@ case "$1" in
     install|upgrade)
         # Manage totally /etc/vim by this package.
         [ -d /etc/vim ] && rm -rf /etc/vim
+        [ -d /usr/share/system-vim-config/bundle/AutoComplPop ] && \
+            rm -rf /usr/share/system-vim-config/bundle/AutoComplPop
     ;;
 
     abort-upgrade)
