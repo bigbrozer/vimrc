@@ -146,7 +146,7 @@ Abbreviations
 
 Type the following words to have them replaced.
 
-i cfile                         expand current file name withour extension.
+i cfile                         expand current file name without extension.
 i dts                           insert the current date as %Y-%m-%d.
 
 Windows
