@@ -40,9 +40,6 @@
 [submodule "vim/vimfiles/bundle/wombat"]
 	path = vim/vimfiles/bundle/wombat
 	url = http://github.com/vim-scripts/Wombat.git
-[submodule "vim/vimfiles/bundle/AutoComplPop"]
-	path = vim/vimfiles/bundle/AutoComplPop
-	url = http://github.com/vim-scripts/AutoComplPop.git
 [submodule "vim/vimfiles/bundle/vim-autoclose"]
 	path = vim/vimfiles/bundle/vim-autoclose
 	url = http://github.com/Townk/vim-autoclose.git
