@@ -1,3 +1,26 @@
+system-vim-config (1.2.7) precise; urgency=low
+
+  * python-mode: run linter on write.
+  * python-mode: run pylint and pep8 linter only.
+  * python-mode: ignore W0122 about usage of exec.
+  * New plugin: *riv*. For editing RST document.
+  * New plugin: *vim-gitgutter*.
+  * Remove deprecated plugin AutoComplPop.
+  * New plugin: *neocomplcache*.
+  * Add Web formats (HTML, JS) conventions.
+  * Remove OMNICOMPLETION.
+  * python-mode: do not enable rope by default. Look in parents for .ropeproject/.
+  * Remove old AutoCompl plugin in preinst script.
+  * Add default settings for neocomplcache.
+  * Reminder: refresh python shortcuts.
+  * Reminder: add Git Gutter shortcuts.
+  * Reminder: how to open/close folds.
+  * Reminder: fix a typo in cfile comment.
+  * Updated plugin vim-nagios to latest upstream.
+  * Updated riv plugin to latest upstream.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Mon, 17 Mar 2014 10:24:20 +0100
+
 system-vim-config (1.2.6) precise; urgency=low
 
   * NerdTree: switch CWD on tree root changes.
