@@ -58,3 +58,6 @@
 [submodule "vim/vimfiles/bundle/neocomplcache"]
 	path = vim/vimfiles/bundle/neocomplcache
 	url = http://github.com/Shougo/neocomplcache.vim.git
+[submodule "vim/vimfiles/bundle/easy-align"]
+	path = vim/vimfiles/bundle/easy-align
+	url = http://github.com/junegunn/vim-easy-align.git
