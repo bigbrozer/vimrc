@@ -173,3 +173,8 @@ Zen Coding
 
 A ^y,                           Apply Emmet Zen Coding.
 
+Alignment
+=========
+
+v <Enter>                       Start Easy Align on the selection.
+i "a                            Start Easy Align in insertion mode.

@@ -192,3 +192,11 @@ let g:neocomplcache_min_syntax_length = 1
 " complete with workds from any opened file
 let g:neocomplcache_same_filetype_lists = {}
 let g:neocomplcache_same_filetype_lists._ = '_'
+
+" Easy Align
+"
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. <Leader>aip)
+nmap <Leader>a <Plug>(EasyAlign)
