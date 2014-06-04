@@ -1,3 +1,16 @@
+system-vim-config (1.3.0~1.gbp787563) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @787563b668c135a8c659a332e8ab525cea38f6f1 **
+
+  * [pathogen] upgrade to latest upstream@bff90d7.
+  * [easy-align] new plugin to easily align text.
+  * [emmet] new plugin to use emmet zen coding in Vim.
+  * [reminder] add Emmet shortcut.
+  * [riv] upgrade to latest upstream master@2fe182e.
+  * [vimrc] add shortcuts for starting Easy Align plugin.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 04 Jun 2014 22:16:15 +0200
+
 system-vim-config (1.2.8) quantal; urgency=low
 
   * [python-mode] point to origin/develop (9863d6).
