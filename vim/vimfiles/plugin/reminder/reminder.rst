@@ -13,6 +13,7 @@ i - use in insert mode (<ESC>i)
 a - use in append mode (<ESC>a)
 c - use in command mode (<ESC>:)
 v - use in visual mode (<ESC>v, <ESC>V, <ESC>^v)
+A - use in all modes
 
 ^ means press on <CTRL> key.
 
@@ -166,4 +167,9 @@ c :!ls                          execute ls and show the result. You can execute
                                 any commands with this.
 c :r !date -R                   insert the date in the document. Used to insert
                                 any commands.
+
+Zen Coding
+==========
+
+A ^y,                           Apply Emmet Zen Coding.
 
