@@ -1,3 +1,12 @@
+system-vim-config (1.3.1~precise) precise; urgency=medium
+
+  * [python-mode] upgrade to upstream develop@c67a1b7.
+  * [python-mode] default linters are mccabe, pyflakes and pep8.
+  * [python-mode] enable rope.
+  * Search: not case sensitive by default.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Wed, 16 Jul 2014 16:21:28 +0200
+
 system-vim-config (1.3.0) trusty; urgency=medium
 
   * [pathogen] upgrade to latest upstream@bff90d7.
