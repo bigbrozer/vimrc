@@ -118,11 +118,11 @@ iab <expr> dts strftime("%c")
 " Python mode
 "
 " don't show lint result every time we save a file
-let g:pymode_lint_on_write = 1
+let g:pymode_lint_on_write = 0
 
 " run pylint+pep8 validator with \8
 autocmd FileType python map <buffer> <leader>8 :PymodeLint<CR>
-let g:pymode_lint_checkers = ['pylint', 'pep8']
+let g:pymode_lint_checkers = ['mccabe', 'pep8', 'pyflakes']
 
 " rules to ignore (example: "E501,W293")
 let g:pymode_lint_ignore = "W0122"
