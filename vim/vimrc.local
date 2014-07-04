@@ -68,6 +68,11 @@ set autoindent
 " (complete only the common part, list the options that match)
 set wildmode=list:longest
 
+" Searching
+" Not case sensitive by default, use \C in search pattern for case sensitive
+" searching.
+set ignorecase
+
 " Status bar
 set laststatus=2
 
