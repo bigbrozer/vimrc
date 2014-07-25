@@ -1,3 +1,9 @@
+system-vim-config (1.3.2) precise; urgency=low
+
+  * Update to latest upstream the plugin vim-nagios.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Fri, 25 Jul 2014 09:16:38 +0200
+
 system-vim-config (1.3.1~precise) precise; urgency=medium
 
   * [python-mode] upgrade to upstream develop@c67a1b7.
