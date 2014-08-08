@@ -67,3 +67,6 @@
 [submodule "vim/vimfiles/bundle/vim-buffersaurus"]
 	path = vim/vimfiles/bundle/vim-buffersaurus
 	url = http://github.com/jeetsukumaran/vim-buffersaurus.git
+[submodule "vim/vimfiles/bundle/vimwiki"]
+	path = vim/vimfiles/bundle/vimwiki
+	url = http://github.com/vimwiki/vimwiki.git
