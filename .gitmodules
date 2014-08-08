@@ -64,3 +64,6 @@
 [submodule "vim/vimfiles/bundle/easy-align"]
 	path = vim/vimfiles/bundle/easy-align
 	url = http://github.com/junegunn/vim-easy-align.git
+[submodule "vim/vimfiles/bundle/vim-buffersaurus"]
+	path = vim/vimfiles/bundle/vim-buffersaurus
+	url = http://github.com/jeetsukumaran/vim-buffersaurus.git
