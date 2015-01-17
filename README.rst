@@ -2,7 +2,7 @@
 My Vimrc
 ================================================================================
 
-This setup Vim configuration in /etc/vim.
+This setup Vim configuration in /etc/vim. Licensed under MIT.
 
 Installation
 ============

@@ -1,12 +1,11 @@
 Source: system-vim-config
-Section: misc
-Priority: extra
-Maintainer: Vincent BESANCON <vincent.besancon@faurecia.com>
+Section: editors
+Priority: optional
+Maintainer: Vincent BESANCON <besancon.vincent@gmail.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 Vcs-Git: http://github.com/bigbrozer/vimrc.git
 Vcs-Browser: https://github.com/bigbrozer/vimrc
-
 
 Package: system-vim-config
 Architecture: all
