@@ -1,0 +1,3 @@
+system-vim-config: package-contains-vcs-control-file
+system-vim-config: extra-license-file
+system-vim-config: unusual-interpreter
