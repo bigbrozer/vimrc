@@ -1,0 +1,1029 @@
+Changelog - v1.5.0 (2015-01-17):
+
+    These are the list of changes for all submodules (Vim plugins).
+
+	### Changes for plugin vim/vimfiles/bundle/easy-align:
+
+	c62d124 Update help file
+	883c6b6 Add regression test case for #51
+	32591ec Merge branch 'wilywampa-fixrepeat'
+	ac9aa14 Fix repeat of visual LiveEasyAlign
+	cafe55d Fix #50 - Updated shorthand notation (m -> a)
+	6c276c3 Add failing test case for #50
+	1744414 Update README
+	246139c Remove dead code (Fix #47)
+	3afd454 Fix #46: Remove duplicate tags
+	2782c1d Fix <CTRL-P> to toggle liveness when delimiter is not entered (#44)
+	d983381 Merge branch 'master' of github.com:junegunn/vim-easy-align
+	52814cc Update License
+	aa1ba68 Retain cursor position after <Plug>(EasyAlign) in visual mode
+	b8abc36 Fix code indentation
+	f6586ba <CTRL-P> to switch to live interactive mode (#44)
+	44216b0 Do nothing when nomodifiable (#43)
+	2595ebf Oops, remove duplicate line from the previous commit (#40)
+	6bc221c Fix #40: Spurious undo in live interactive mode
+	2169777 Allow recursive alignment (*, **) in blockwise-visual mode
+	09167c7 Fix travis-ci build
+	cbb005e Update the link to the default alignment rules
+	ec15731 Update README: Shorthand notation for stick_to_left option
+	eee4735 Update shorthand notation for stick_to_left: `>` to unset
+	5e2a588 Update README
+	2fa6a04 Change option name and shorthand notations
+	f9a49e4 Preserve last selection when using <Plug>(EasyAlign)
+	fc9555c Allow negation operator in ignore_groups option
+	a98c1cc Add '#'-rule (#30)
+	0aa6289 Update EXAMPLES.md
+
+	### Changes for plugin vim/vimfiles/bundle/emmet-vim:
+
+	8b9bcac Add some workaround for #248
+	a9b29f7 Fixes #249
+	fcf44c5 user_emmet_settings.indentation should be checked at the first
+	4cc293d Merge pull request #244 from RobAWilkinson/master
+	7be2d5b Spelling error, changed "toogle" to "toggle"
+	26954b9 Fixes tests
+	47b54c2 Fixes against errors/warnings in vint
+	edf7434 Merge branch 'master' into wip
+	cd09765 use_selection = 0 in default
+	5bfcf0a wip
+	1c1c511 Update css abbreviations
+	0e08b66 Replace all
+	62b3acc Check maprg too
+	9ac3339 WIP: implement selection
+	2a8f0e0 lang/charset should be in variables of configuration
+	2b4eea8 hasmapto should be used to check key-mapping instead of plug-mapping
+	76499f4 Remove badge
+	0d63cc7 Merge pull request #235 from kashiro/issues234
+	8b703a0 Fixes errors on lint. #236
+	4b17969 Markdown
+	3e668b3 add link:import for webcomponents #234
+	485abff Add test to expand dn to 'display: none' for css
+	4d78123 Find snippet more fuzzy. Close #212
+	920904c Version bump up
+	a3418eb Merge branch 'master' of github.com:mattn/emmet-vim
+	070800e Support 's' filter. Close #231
+	e9b90c7 Merge pull request #230 from UncleBill/master
+	def1f1a escape $
+	55c704b fl should be expanded float:left; in css. close #225
+	591bfc9 Fix tests
+	d51cb71 Merge pull request #223 from sheoak/master
+	c0175de Fix attribute parse
+	bd5f03b Fix #224
+	105bea2 Merge branch 'master' of https://github.com/mattn/emmet-vim
+	f1a34cc Fixes issue #211 - sass not working properly because expecting braces instead of tabs
+	39d8f88 Remove debug code
+	bd6060b Workaround for sass, fixes #222
+	a61cb0c Merge pull request #221 from mvz/fix-vundle-instructions
+	92fa2e5 Fix Vundle instructions
+	2b94508 div[foo bar] should be expanded into <div foo="" bar=""></div>. close #218
+	dcf247f Fix test
+	3874d62 Merge branch 'master' of github.com:mattn/emmet-vim
+	23aea8c Revert 08eb534c42f2da7905beeadb8ea94b75701f404d, because test is failing
+	00536da Merge pull request #217 from conraddecker/master
+	0f45689 Set attributes. fix #218
+	beeb159 Merge pull request #219 from typoon/master
+	08eb534 Small fix related to VIM Tip #436 http://vim.wikia.com/wiki/Recover_from_accidental_Ctrl-U
+	437cd92 Changed 'parenthesis' setting to 'attribute_style' setting to allow for choice between 'hash' and 'html' Updated output to correctly display html-style attributes or hash-style attributes. 'attribute_style' setting defaults to hash but can be updated by the user to use html style attributes
+	761adcc Fix typo
+	ca6296f parenthesis for haml #216
+	96903b0 Merge pull request #215 from shaabhishek/master
+	949b8c2 Added meta viewport tag
+	320bb97 Merge pull request #213 from sevko/master
+	23bb8c0 Document g:user_emmet_leader_key's trailing ','.
+	39a5ba0 Add test for #210
+	ef3f51b Parse as css
+	da9283a Don't handle @i for @i {}
+	7ac6a8a Fix tests
+	ef27d24 Fix #210
+	c49d456 Fix default attributes
+
+	### Changes for plugin vim/vimfiles/bundle/molokai:
+
+	db8ce13 Merge pull request #34 from justinmk/master
+	d675583 Change search higlight based on @vellvisher suggestion.
+	b1ee957 Fix terminal MatchParen colors
+	0f05955 Merge pull request #30 from aaronjensen/match-pmenusel
+	3649565 Merge pull request #28 from mathiasbynens/patch-1
+	28a4040 Merge pull request #26 from justinmk/master
+	aa1cc20 fix #22: 'hi Normal ctermbg=234' sets background=light
+	48e49b3 Make console PmenuSel match gvim
+	1bc28dd Add comment for repository URL
+
+	### Changes for plugin vim/vimfiles/bundle/neocomplcache:
+
+	d83bcbd Merge pull request #497 from j5shi/master
+	69c90a9 correct a grammar error is doc/neocomplcache.txt
+	68f9aa8 Merge pull request #494 from pzurek/typo-occurred
+	5ab5cb5 fixed spelling of occurred
+	f1ee320 Merge pull request #491 from bluehavana/master
+	75a2eff Prefer XDG_CACHE_HOME over ~/.cache if set
+	2374429 Merge pull request #485 from reem/doc/README-force
+	604e1ec Switch to using the force variant of omni_patterns.
+	d4d34cd Merge pull request #483 from rhysd/fix/truncate_smart
+	6fa7736 Fixed truncate_smart() deprecation warning
+	627d5d6 Merge pull request #478 from jrobeson/change-cache-dir
+	3e4be03 change default cache directory to match neosnippets
+	50358bb Merge pull request #476 from harciga/patch-1
+	fd5c709 Update neocomplcache.txt
+
+	### Changes for plugin vim/vimfiles/bundle/nerdcommenter:
+
+	6549cfd make the delimitermap a global variable
+
+	### Changes for plugin vim/vimfiles/bundle/nerdtree:
+
+	3b98a7f Merge pull request #403 from gcmt/pretty-cwd
+	ba26044 Truncate paths at slashes.
+	f8fd2ec Merge pull request #390 from zhangoose/patch-1
+	a895a53 easier to read one of the FAQ answers
+	3d421b8 use the built in fnamemodify() to make a path relative
+	3ce33f0 fix escaping for `:edit` when renaming files
+	031ab52 Merge remote-tracking branch 'origin/master'
+	5d0626a Merge pull request #384 from gastropoda/reopen-after-rename
+	1c08146 apply @mixvin's windows path fix at the top of the method instead
+	cd8d87f Fix opening file path, in Windows
+	2fd0aa3 Fix reloading renamed file
+	4f1e6ec Merge pull request #365 from ifsred/master
+	c408666 Fix doc map for NERDTreeMapChangeRoot
+	a47c6ca Merge pull request #359 from Xuyuanp/up/master
+	8cd045d add refreshDirFlags method to avoid refreshing too many files
+	c2dd750 move nerdtree#treeExists.* methods into the NERDTree class
+	fd14757 add proper events and make the notifier class generic
+	f9a9339 allow plugins to override the default mappings
+	aa831e2 Merge pull request #356 from alvan/patch-2
+	0c045d8 fix a bug from recent refactoring RE some NERDTreeCWD
+	2f552e1 add highlighting for flags
+	579d96a remove testing git plugin
+	9f351de Merge branch 'master' into expt_add_path_flags_and_git
+	1e0d1cb move some more view code into the UI class
+	98a5d1f Use event BufLeave instead of BufWinLeave to record screen state to avoid undefined b:NERDTree error
+	2f59cc2 Merge branch 'master' into expt_add_path_flags_and_git
+	eaa66aa fix the NERDTreeFind command - broken in recent refactoring
+	8644622 Merge branch 'master' into expt_add_path_flags_and_git
+	410081a Merge pull request #353 from lucascaton/master
+	1784de1 Updating creator.vim file (this fixes #352)
+	7f36008 Merge branch 'master' of github.com:scrooloose/nerdtree
+	23dfc6d continue breaking down the epic autoload module
+	f982f61 continue breaking up the autoload/nerdtree god module
+	86488b1 move ui functions out into their own autoload
+	04d9b27 add `.refreshFlags()` to path/dir/file objects
+	3941389 fix a retarded bug with FlagSet.clearFlags
+	32cf3ee allow flags to be scoped to a plugin
+	a7428eb add proof of concept for path flags API and add git modified flags
+	3effeb5 Merge pull request #347 from kelaban/minor-fix-to-readme
+	04ac39b Fixes README for opening vim with no files
+	d162c08 comment and tweak the <LeftRelease> fix in 24561ad
+	2a769a7 Merge pull request #298 from buggo/master
+	0ee888e simplify the <cr> mapping definition
+	0b551a8 Merge pull request #346 from shanesmith/master
+	82cd4f5 Fix <CR> not working if active node map is special char such as <Right>
+	b64942a uncomment out some needed syntax matching code... fail
+	e954b2e trivial highlighting update for consistency
+	e68e12a fix highlighting for readonly files
+	b33d6da remove the NERDChristmasTree option
+	abb9387 simplify the syntax matching code slightly
+	634c23e Merge branch 'better_symlink_highlighting' into update_highlighting
+	9d9edd0 separate out syntax matching for Dir Arrows vs old style
+	9704a38 update symlink highlighting
+	55a8954 update the doc/quickhelp for :Bookmark
+	0b1166f update code in readme to auto-open a tree on startup
+	b2d2cc1 Merge branch 'inkarkat-better-set-filetype'
+	4b89264 Merge branch 'better-set-filetype' of https://github.com/inkarkat/nerdtree into inkarkat-better-set-filetype
+	1168f58 update the NERDTreeCascadeOpenSingleChildDir doc
+	0928b5b Merge pull request #251 from pendulm/master
+	8189597 Merge pull request #266 from staeff/patch-1
+	9e54c48 Merge pull request #299 from tophsic/master
+	3863e69 Merge pull request #316 from ZeroProbability/master
+	8b48413 rename NERDTreeWildIgnore option and refactor the usage of it
+	186abb8 Merge pull request #303 from amarshall/wildignore
+	10ba84b Merge pull request #308 from igrep/patch-1
+	a453048 Merge pull request #295 from DanielleSucher/create_parent_directories_as_needed
+	dd8fe4b Merge pull request #274 from an1zhegorodov/master
+	e9427a9 Merge pull request #326 from migueldvb/docs
+	23d2d19 Merge pull request #331 from jinnko/add-bookmarks-sort-flag
+	1da2890 Merge pull request #338 from trkoch/spaces-umlauts
+	47a3a84 Merge pull request #340 from netj/sort-hidden-first-option
+	43842e0 Option for mixing dot files when sorting
+	fbab099 Support space in path when renaming
+	e38d8a8 Add flag to disable/enable bookmark sorting
+	603e6c7 Use pathogen.vim Helptags command in README file
+	13b4058 Issue 315 - Incorrect buffer deleted on file delete
+	ad4ebaa correct invalid reference to MenuController
+	a50c571 Add option to respect wildignore
+	4f48af0 Fix typo
+	24561ad Ugly hack to fix Error 121 when NERDTree is the active window and clicking on the command line below another window.
+	eacd5d7 Create nested parent directories as needed
+	5b51f9d Fix help mistake
+	2ebe284 Fixed typo in NERD_tree.txt
+	6ef67a2 Add correspoding close action to cascade open single child dir
+	60683f1 Fix typo Casade to Cascade
+	b8cab9b Set filetype unconditionally and after defining mappings.
+
+	### Changes for plugin vim/vimfiles/bundle/python-mode:
+
+	c6a872a Merge branch 'release/0.8.1'
+	66b70dd Update version
+	6cea61d Improve troubleshooting function
+	0c54d08 Update python3 support. Fix #437
+	ca0078b Update pylama. Fix #438
+	304a68e Update pylama to version 4.0.1 Supports configuration from setup.cfg, tox.ini, pytest.ini files
+	d09e30d Merge branch 'release/0.8.0' into develop
+	af70229 Merge branch 'release/0.8.0'
+	557057e Update version
+	99bc092 Update pylama
+	a9e2891 Update authors
+	246addf Fix code.
+	d610ccd Update pylama to version 3.3.2
+	80dddfe Merge pull request #433 from bendavis78/rope-dir-options
+	ce2b218 Merge pull request #431 from alienth/remapfix
+	16fcf4e Merge pull request #429 from fwuzju/develop
+	84b9eb2 Merge pull request #428 from jawrainey/develop
+	d1ee48c Added options to give more control over rope paths
+	c8271ba Replace literal special chars in mappings.
+	d2111cd stdout will be set to vim.message, but in early release of vim 7.3, message object didn't have method flush.
+	4c2a413 Added name to AUTHORS file
+	d9699cd Remove unnecessary copyrights from README
+
+	### Changes for plugin vim/vimfiles/bundle/riv:
+
+	7e442bf - fix os
+	63ce78b - fix open browser bug under MAC
+	d9cc95f - #86: master revert to version 0.77, there is another test branch using clickable.
+	57791df -
+	96def5e Merge branch 'master' of github.com:Rykka/riv.vim
+	3ba9f3d add pelican
+	1b3caff Merge pull request #79 from s0undt3ch/master
+	77bd58a Don't enable full buffer spelling if being included for docstrings.
+	ce8969e Try to fix #78: can not fold automatically
+	1b851fc Try Fix #77, @Spell; Add g:riv_unicode_ref_name
+	074e725 0
+	6723f55 0
+	b579d84 update readme
+	10d7f18 No more echo
+	a5535ee 0
+	3cf75c8 0
+	3ba817f 0
+	0a5a1c7 Update gif
+	6f7eba5 0
+	490bbcc 0
+	eff99fb 0
+	b0a6985 0
+	9b2bda3 Fix create#link
+	1aa1fe6 add Todo
+	7ba6f3f Fix create#link without always return phase
+	bfd4696 Merge branch 'master' of github.com:Rykka/riv.vim
+	6fe801f Update rhythm.css
+	64b52c2 Merge pull request #76 from ldhughes/link_fixes
+	ea5028b Fix link code.
+	d375e0e 0
+	7c66f2b fix link
+	0d24474 Update rhythm.css to 0.62
+	e51bb23 o
+	062eb19 fix theme: div.line-block .line
+	8a06afd CHANGE THEME NAME
+	ff167c1 merge with   Add shpinx :doc: support to publish. #74
+	7c73d75 Merge branch 'ldhughes-feature/sphinx_doc_role'
+	afb394a substitute sphinx
+	5fa5fca Merge branch 'feature/sphinx_doc_role' of git://github.com/ldhughes/riv.vim into ldhughes-feature/sphinx_doc_role
+	5337f8c 0
+	06e5c06 0
+	0cb5313 0.77: Many improvement, see README
+	f133982 a quick fix for the syntax error
+	8678b91 Change refname to use unicode name. Change hl group.
+	4fc8526 Add shpinx :doc: support to publish.
+	58756d3 change the open link behavior as #72 mentioned.
+	cc470ca Fix the `\_s` with `(\s|$)`. #67 related. optimize folding set the literal-block folding's first line at the `::` markup
+	ec3b075 remove test code
+	e7539c9 Rewrite indent behavior as #71 mentioned.
+	6d6c8ec Merge pull request #46 from dhabyx/masterfork
+	4f844d1 0
+	6470ad9 optimize create#link and section#title behavior. rewrite riv#id
+	42c2094 Add option g:riv_auto_rst2htm for auto convert file in projects after writing, Use doctest.vim, this should have no side effects for users.
+	4e65fe6 adding color for inline roles
+
+	### Changes for plugin vim/vimfiles/bundle/surround:
+
+	fa433e0 Work around 'nomagic'
+	f85cb4e Merge pull request #125 from tommcdo/master
+	4e73eeb Add repeat.vim support to surround with function
+
+	### Changes for plugin vim/vimfiles/bundle/tagbar:
+
+	fcac7f2 Don't try to jump to winnr 0, ref #244
+	bfc121d Setup options and keymaps in functions to avoid global variables
+	4fa1534 Small cleanups
+	f9c5f24 Don't skip over closed folds with zk
+	a084e47 Rephrase compatible programs a bit
+	df09799 Add mappings for moving through folds, closes #224
+	f933907 Add option to arrange Tagbar window vertically
+	5283bc8 Reprocess files if filetype changes, closes #228
+	5d1ae68 Better JavaScript ctags config, courtesy of David Fishburn
+	e1eec86 Small doc fix
+	5c33e09 Add simple inspect() debug function
+	251c774 Don't assume all types define 'ctagstype'
+	37400d9 Make errors less fatal, closes #215
+	64e935f Small preview window improvements, ref #161
+	b54d8d6 Handle unloaded buffers when getting prototype, closes #222
+	76f16f8 Return pattern for prototype if linenr is not available, closes #219
+	4e5e0eb Small doc improvement for pause, closes #199
+	032fd1f Reset 'shell' to improve compatibility
+	f3a369c Use prettier screenshots, just because.
+	f46ba1a Update README
+	9ee516e Fix typo
+	59c9b7c Don't skip over unmodifiable buffers, closes #213
+	5e392c1 Add inline help for toggleautoclose mapping
+	ca1c9ee Add mapping to toggle autoclose option
+	9bf4fd9 Merge pull request #206 from hachibeeDI/fix/disable_appendmode
+	a9ec78a specify a option is disable append mode
+	ae46cc0 Better mapping init, closes #203
+	87d0111 Clarify debug instructions
+	0181f1d Log typeinfo of newly processed file
+	a5220ad Better fileinfo removal logging
+	fabae6a Log fileinfo removal
+	2bc6e96 Rename debug log function
+	8a139e0 Better timestamps
+	be46ee5 Don't remove fileinfo on BufUnload
+	b2c5f0b Keep cursor on current tag when sorting, closes #200
+	07b7e9b Add LICENSE file, closes #197
+	c251265 Document common way to run debug command
+	fdceb4e Add ? as help key, closes #194
+	614b5b2 Change default hide_nonpublic mapping
+	3fdefba Add documentation for hide_nonpublic
+	368d37e Allow hiding non-public tags, closes #186
+	13d4cfc Remove some duplication
+	42ce291 Allow configuring zoom, closes #189
+	836a39a Jump to correct window even after opening preview window
+	0ead333 Extract GetFileWinnr() function
+
+	### Changes for plugin vim/vimfiles/bundle/tlib_vim:
+
+	9e62976 Remove loaded_* guard from autoload files
+	b730863 FIX: display filter (properly handle backslashes)
+	344a6d3 FIX #18: Make sure the scratch isn't readonly
+	88c5a24 docs
+	adc23ae docs
+	15c1abd docs
+	15bd8d0 Facilitate customization of key agents via g:tlib_extend_keyagents_InputList_s, g:tlib_extend_keyagents_InputList_m
+	3689937 misc
+	713ffea tlib#cmd#Capture()
+	6c2b560 misc
+	f585f86 misc
+	1b70caa UseInputListScratch(): Allow customization via self.index_next_syntax
+	bc4097b tlib#input#List: state "picked"
+	d50754c version
+	b7fc1e3 g:tlib#input#user_shortcuts (not functional yet)
+	b82f880 docs
+	85cd1d9 tlib#var#List(): use keys(namespace) for newer versions of vim
+	6dda44d SetInitialFilter(): Use deepcopy()
+	a1cd7e2 docs
+	d9a3b6a tlib#file#Canonic()
+	de35489 tlib#dir#CanonicName(): Use tlib#file#Canonic()
+	4e4576e version
+	2a8aced tlib#list#ToDictionary()
+	ad00fab docs
+	f1526ec docs
+	9860106 version
+	f71acc3 tlib#var#Get(): For namespaces other than global, replace "#" with "_"
+	352256d scripts/create_crc_table.rb
+	169e7de tlib#vcs#Executable()
+	c528033 tlib#arg#StringAsKeyArgsEqual(), tlib#arg#StringAsKeyArgs(): Support "key=val" type argument lists
+	e40fd29 Some system-related functions (e.g. facilitate use of cygwin tools)
+	1464e1f tlib#vcs#FindVCS(filename): Wrong parameters to fnamemodifiy if filename is a directory
+	dad3162 docs
+	0c256d2 docs
+	573c71f misc
+	8e5bf4d version
+	5bf89dc tlib#string#Chomp: Optional argument: max number of chars that should be removed
+	3fc2fc8 docs
+	507aeaa docs
+	8e19e81 docs
+	85eaec1 version
+	9d5899f tlib#list#Uniq(): Implementation based on syntastic#util#unique(list) by scrooloose
+	6c74937 lis picker: Remove <C-Space> from help
+	01e09cb tlib#list#Uniq(): Fix handling of empty items
+	b16b81a tlib#input#ListW: Temporarily set noshowmode
+	fc1dc79 misc
+	bfd4e80 tlib#cache#MTime(); tlib#persistent#Save() calls tlib#cache#Save()
+	c9b9007 tlib#list#Uniq(): option to remove empty values
+	4959a4d tlib#cache#Value(): Undo previous hack
+	2d4c8b1 tlib#cache#Filename(): Use sha256() for VIM >= 7.4
+	308de99 docs
+	ebb9289 version
+	9a0135a docs
+	47bf87c tlib#persistent#Get() refers to tlib#cache#Get()
+	8581233 tlib#cache#Value(): If generator is empty, use the optional argument as start value
+	95f6fe6 tlib#vim#CopyFunction()
+	eee15dc Prepare for proper handling of scratch_split == -1
+	e16b516 tlib#tab#Set()
+	24e6d48 tlib#cmd#ParseScriptname: Properly parse results from :scriptnames
+	7fab357 tlib#cmd#BrowseOutputWithCallback: Support calling callback with multiple results
+	7fb7e26 tlib#agent#ShowInfo: Show full filename
+
+	### Changes for plugin vim/vimfiles/bundle/vim-gitgutter:
+
+	e5efbaf Fix Markdown typo.
+	6b8e908 Enable `.` command to work with staging/reverting hunks.
+	25257c4 Dealt with the case where the preview window is used by another plugin
+	2c8e82a Add another note for Fish users to README.
+	1a68abe Update caveat about visual artefacts.
+	88c7916 Use system() with silent to avoid visual artifact
+	57342e3 Minor refactor.
+	7ff7455 Add tests for ambiguous filenames.
+	f73df41 Handle files with the same name as revisions.
+	83309ee Cache the fact that a file is known to git.
+	7f70d52 Refactor the test cleanup.
+	d56d26b Test runner's exit code reports number of failures.
+	af1f405 Add test for filenames with square brackets.
+	a114088 Support symlinked files.
+	4ca2de6 More tests.
+	6cef76a Add tests.
+	dfe985a Use buffer numbers instead of buffer names.
+	ce4e3d7 Add test for sign column.
+	6d91198 Drop extension for bash script.
+	d7a1785 Add test for reverting hunks.
+	e5add67 Use clearer file extensions for test files.
+	1f2bb48 Add test for hunk staging.
+	dd05453 Allow multiple expectations per test.
+	86cde1a Add basic test stats.
+	d24686e Extract name manipulation.
+	7d0492e Add section on limitations of current tests.
+	4ad4c97 DRY quitting vim after each test.
+	b9f4173 Refactor tests to be isolated.
+	a82bc50 Ignore test output.
+	09134a5 Add basic tests.
+	b0e9efa Make realtime diff use git-diff.
+	39f0119 Whitespace.
+	067160c Remove obsolete comment.
+	e5eb9e6 Fix staging of hunks coming after deleted lines.
+	1e82019 Ensure closing preview window deletes previewed buffer.
+	198faa1 Report updatetime option in debugging buffer.
+	83ace20 Suppress signs when there are more than 500.
+	fed2dba Move every function into gitgutter namespace.
+	a2aa2b1 Avoid Windows command prompt popups when possible.
+	7ac9d05 Add note about updatetime.
+	64ad9e4 Specify UTF-8 to avoid problems with overscore character.
+	c9595f2 Fix bug where custom highlights were lost.
+	c6e5cf4 Show sign on first line when line(s) deleted at start of file.
+	d1e66b7 Revert "Show sign on first line when line(s) deleted at start of file."
+	0fd18d6 Show sign on first line when line(s) deleted at start of file.
+	833b8a4 Use proper regex when fetching SignColumn colors.
+	208e301 Document the sign column's presence with line highlights.
+	ceeba75 Fix independent toggling of signs in sign column and line highlights.
+	0759c96 Rename function for clarity.
+	d44c514 Fix typo in function definition.
+	3788373 Update broken link to my portfolio.
+	7908def README: adapt to Vundle interface change
+	a4347c5 When disabling, disable across all buffers.
+	47ffb2e Follow linked highlight groups to find background colors
+	7e7ccea Use bg values from SignColumn for GitGutter{Add,Change,Delete}Default
+	ba0f593 Optimise removal of all signs where possible.
+	0ca3f7e Add hunk previewing.
+	9c66906 Move logic out of main plugin file.
+	eee8ba4 Refactor hunk functionality.
+	fd98657 Handle vim versions lacking gettabvar().
+	a1a29b8 Use cross-platform way to exit with success.
+	e9db45e Escape grep's argument.
+	aeec864 Suppress non-zero exit codes for `diff`.
+	7e8d2fb Use minimal file paths.
+	973c19e Don't pester user if their Vim is too old for realtime updates.
+	dff7bc8 Wrap compound commands in parentheses.
+	f291db0 Disable realtime updates when Vim older than 7.3.105.
+
+	### Changes for plugin vim/vimfiles/bundle/vim-puppet:
+
+	d881b93 Merge pull request #42 from Yasumoto/master
+	83d05f2 Remove range in ftdetect
+	2bcc382 Merge pull request #41 from kyounger/patch-2
+	0361911 Include Puppetfile in ftdetect
+	0154b08 Merge pull request #36 from jonmosco/contains_function
+	8100b30 Merge pull request #37 from voidus/master
+	9f811bf Merge pull request #38 from nikolavp/patch-1
+	8f9b3a3 Don't indent on ordering arrow
+	8ba98e3 Make it possible to turn aligning off
+	8a43382 Rewrote indentation logic so that it preserves cursor position
+	afd1d7e add contains function for puppet 3.4.x
+
+	### Changes for plugin vim/vimfiles/bundle/vim-snipmate:
+
+	8cb6c3e Remove the last newline in a visual replacement
+	76ea4a6 Adjust indentation of {VISUAL} replacement
+	e6eb057 Merge pull request #168 from lpil/css-preprocessors
+	b9a9962 Add css scope alias for common css preprocessors
+	f8aa804 Fix miscounting stop positions
+	a781cf3 Typo
+	eaf3668 Fix mirrors
+	e88818f End a snippet right after entering the 0th tabstop
+	d6ca8e4 Interpret backslash escapes correctly
+	f9f2d5e Discard snippets with empty triggers
+	9db1826 Use globpath() workaround on Windows
+	d7d5fb8 Update mirrors only when in insert mode
+	09964a9 Typo
+	9e2ea92 Only remove a snippet in insert mode
+	f5b464b Remove last select mode mapping
+	29751ed Fix bug with stop location updating
+	181a1ab Clarify disabling of default aliases
+	9652040 Move no_default_aliases into the g:snipMate dict
+	f0b2764 Fix bug with mispositioned cursor
+	6bfbbd4 Rewrite section into a FAQ
+	587d21d Update docs
+	4a1caf7 Work around #128
+	be38514 Actually load scope_*.snippets files
+	c4ef5e1 Update docs
+	ddda9dd Fix handling of single stop snippets
+	0f123c8 Add SnipMateLoadScopes command
+	a1f37ac Add support for buffer local scope aliases
+	3454d22 Clean up plugin/* a little
+	99b618b Fix issue with visual tab at end of line
+	3a23fdf improve README, vundle taught us this is very important
+	2f3b2ad Remove unused s:ReadFile function
+	eb30d83 Fix handling of single snippet files
+	40f0efd Fix available snips completion popup
+	35cecbb Updates for snippet with normal for syntax
+	3883b17 Fix formatting of readme
+	4376a66 Remove expansion guards
+	55ee329 Use CursorMoved events entirely
+	667086e define left_from_cursor
+	d3cda27 Fix bug with mirrors in placeholders
+	0631587 Implement simple caching
+	43e8b9a Change quoting when filtering snippets
+	d7918d0 put VAM first because its most convenient because it supports dependencies
+
+	### Changes for plugin vim/vimfiles/bundle/vim-snippets:
+
+	2ce8ef4 ERB: Remove redundant ultisnips if
+	a6db63d Merge pull request #505 from FiloSpaTeam/master
+	634efcf Another bug fix for Laravel Snippet
+	b51b276 Another bug fix for Laravel Snippet
+	83be78b Bug fix with Laravel snippet
+	ed492a9 Merge pull request #501 from FiloSpaTeam/master
+	9bf5d0f Added b option to prevent snippet inline
+	ac2fca2 Merge pull request #502 from nerdwaller/master
+	0ac57c7 Rust: change from uint to new usize type
+	69d3b5e Remove a load of duplication from Rust snippets
+	1873318 Update Rust for to use new range syntax
+	e23c910 Merge pull request #504 from tony/patch-1
+	99fe636 Snippet for python prompt toolkit embed
+	621e747 Merge pull request #503 from yikelu/master
+	8832cee Add iem python snippet for embedded ipython
+	5023e19 updated angular snippets to auto populate params based on the param annotations
+	5d32bdc Merge pull request #500 from pgilad/refactor/tab-stylus
+	052d282 Corrected last commit
+	000fad2 Added Laravel Snippet
+	e0fff15 Convert stylus snippet spaces to tabs. Fixes #499
+	42f8ee2 Merge pull request #498 from gchaincl/master
+	60be562 Added package snippet for Go
+	55d774b Merge pull request #497 from mMontu/master
+	6a679df Fix box and bbox snippets outside the first column
+	89427d7 Merge pull request #496 from guneysus/feature/python-args-kwargs
+	4f2e0a0 Python args and kwargs snippets
+	e0b29dd Ultisnips eruby: Start removing snippets duplication
+	9b59e96 Edit MPL2 licence to match Mozilla header
+	e096d0e Use g:snip_author in LICENCE snips
+	97f7941 Add MPL2 snippet
+	b103288 Merge pull request #494 from guneysus/feature/fortran-snippets
+	511c421 Fortran snippets finished
+	d70a75b Clojure: Move trailing )s onto previous line
+	bf2712e Add lpil as Clojure maintainer
+	06b67db Clojure, don't indent with spaces!
+	4833a35 Clojure bugfix, remove extra )
+	cb77bce Merge pull request #493 from guneysus/feature/fortran-snippets
+	d42e376 Fortran variable definitions
+	9935a55 Fortran snippets initial commit
+	e82994f Clojure: letfn bugfix. Clean up ns
+	ac2db9e Ultisnips HTML: H1s should not always have IDs.
+	b1a62cf Remove duplicate JS if ife
+	67eba0b SCSS: eif bug fix
+	9f7ec8c SCSS ife
+	4360380 Merge pull request #488 from cirosantilli/markdown-bold-italic
+	6f59d1e Merge pull request #492 from Carif/perso
+	588cbd2 snippets: add p. and p#
+	b988fb9 Ruby: Remove some duplication
+	2796cf6 Ruby: Remove 2 snippets that save a negative number of keypresses
+	1d9afe2 Ruby: Remove lots of placeholder text
+	c462515 Ruby: Remove excessive whitespace
+	b7fb63c Ruby: def with params to fill style guide
+	4c988d2 Add receiver to fum snippet
+	e623bbf Merge pull request #490 from gchaincl/master
+	78c2c1d Remove duplicated html5 snippet
+	3b1f079 Markdown bold and italic
+	f726ac4 Merge pull request #484 from cirosantilli/md-clipboard-links
+	d00ca9f Markdown links from the clipboard
+	637db23 Merge pull request #485 from cirosantilli/markdown-links-consistent
+	2b09325 Make markdown links consistent on cursor exits
+	95024ce Merge pull request #487 from cirosantilli/markdown-fix-fenced
+	1e68b20 Merge pull request #486 from cirosantilli/markdown-link-no-title
+	42d2035 Merge pull request #483 from cirosantilli/markdown-autolink
+	fbbe71e Fix markdown fenced code blocks.
+	e3ea646 Let the short version of links not have title
+	3ecf47c Markdown autolinks <url>
+	8a1de61 Merge pull request #481 from crdueck/patch-1
+	7f315de add INLINE snippet for Haskell
+	a7231e8 Javascrip: vf, make "var" optional
+	8c3caee Merge pull request #480 from ethervoid/phpunit_comment
+	03d94e7 Added phpunit comment with group option
+	bb36151 Merge pull request #479 from rtorralba/master
+	45d25d8 renamed ci_model_complet to ci_model_crudl and improved
+	5271ea5 improved some snippets
+	d05ca09 Merge pull request #478 from FelikZ/master
+	0d916d5 Merge branch 'master' of https://github.com/honza/vim-snippets
+	2297e3f Actionscript: remove duplicate warning for  statement
+	5c969a9 Merge pull request #477 from rtorralba/master
+	ba77d58 rename snippets key for to give more information about snippet
+	dc2db83 rename ci.snippets to codeigniter.snippets
+	20c0978 added codeigniter snippets
+	db48e03 Scala: Tests add missing }, use === in assert
+	d9b90b8 Merge pull request #475 from napcs/master
+	395fb57 Merge pull request #476 from Daeinar/textable
+	48118a1 Add TeX Table environment
+	73c6057 Shorthand haskell import
+	b788a43 Ultisnips haskell where, lambda nospace
+	ba1cc93 Haskell Ultisnips type var cleanup
+	b1d1961 Remove self-closing meta tags on HTML5 templates
+	e00538f Debug Haskell lambda ultisnips
+	51be0d4 Merge pull request #474 from craigp/additional_jasmine_snippets
+	dd8afe9 Additional jasmine snippets for the following completions:
+	3c15b60 snippets haskell lambda
+	7b8d279 Merge pull request #472 from yerv000/patch-1
+	1bdc25f ol. and ol# are missing a double quote
+	d3f033b Ultisnips CSS colour spacing
+	c77db7c Merge pull request #470 from blueyed/python-doc-quotes
+	ad46f8d ${1:text} snippets snippet
+	c1ee0ed Ultisnips: CSS. Colours, shadows, text-transform.
+	ae0cca3 Ultisnips: Common CSS snippets
+	90d9862 Scala for comprehension
+	1bb849e Add snippets `'`, `"` and `doc`
+	d4cb189 Fix bug #471: Swap spaces for a tab in pry snippet
+	7bdc3b0 UltiSnips HTML: Remove redundant img snippet
+	8637c91 UltiSnips: HTML div with class.
+	f910952 UltiSnips: default to no ID for divs
+	2d47b85 JS: Add missing closing quotes
+	0373b84 Fix JS DOM selector placeholders
+	e2bd41a SCSS snipmate snippes
+	3216ac2 Fix Bug in UltiSnips/tex.snippets fig env b
+	59c1db4 More JS console. snippets
+	850fee1 Merge pull request #467 from craigp/angular_minification_fix_plus_additional
+	6103c95 Merge pull request #466 from craigp/change_jsdoc_author_to_match_ref_docs
+	faeacc8 Remove Scala braces to adhere to the style guide
+	c34ee98 JS: Group related snippets together.
+	ff8c127 Added some additional angular snippets and changed the existing ones to use the annotated syntax which supports minifications, see: https://docs.angularjs.org/tutorial/step_05 (A note on minification). Also added some variants that auto-insert the scope, which is commonly done.
+	9191e53 Change jsdoc author info to match jsdoc documentation format at http://usejsdoc.org/tags-author.html
+	6d36226 Merge pull request #464 from lpil/js-return-semicolon
+	ebf6fb2 Merge pull request #463 from lpil/js-dom-selectors
+	b73a206 Merge pull request #462 from lpil/js-quotes
+	63e82d2 Merge pull request #461 from lpil/js-node-quotes
+	3514b3c Use actual value for SINGLE_QUOTES/DOUBLE_QUOTES
+	ea8dc05 Added missing semicolon to JS return statement
+	9eea452 Added JS DOM element selector snippets
+	f488d48 js define prop: Use single quotes to match style
+	885fdc4 js node require: Use single quotes to match style
+	c7c1734 Merge pull request #459 from xvadim/feature
+	f298510 Added docstring; removed empty line
+	f528750 Merge pull request #460 from andreicristianpetcu/master
+	0ee4b84 added pry to eruby
+	2bffc46 Python: added snippets for classmethod and staticmethod
+	a811b75 Merge pull request #456 from BlackIkeEagle/php-docblock-methods
+	384659f Merge pull request #457 from BlackIkeEagle/php-extra-class-definitions
+	dca6268 php add interface snippet similar to class snippet
+	41f9d7d php extend class snippet so you can easily add abstract or final
+	6e0180c add inheritdoc docblock snippet
+	faec22c add simple docblocks for class methods
+	6dde955 Merge pull request #455 from thomd/html-snippet
+	c1bc3da Merge pull request #454 from nguyen-le/master
+	d515554 fixed indentation in html snippets
+	0b323ed Added missing quotes on embed and textarea tags in html snippets
+	0939e8e Merge pull request #448 from lpil/remove-js-placeholders
+	1df9d6c Replaced documentary js placeholders
+	3462a1c Merge pull request #452 from lpil/var-fun
+	4a72edf Merge pull request #453 from ikibits/customize
+	4343a3c customize tags html
+	59e9d8e customize attributes
+	6a4cadf Adapt css.snippet and add features for stylus
+	5aad7a4 Correct js vf ${1} snippet syntax error
+	1745f24 Merge pull request #451 from lpil/var-fun
+	00c1711 Add missing semicolon to js vf
+	0249456 Merge pull request #426 from yazengo/master
+	2c55662 Merge pull request #449 from lpil/var-fun
+	6448dea Add JS function assigned to variable snippet
+	ffcd8b8 Remove useless placeholder text from JS functions
+	13a14fa Merge pull request #445 from ToruIwashita/zsh_function_snippet
+	6db93bc Merge pull request #446 from BlackIkeEagle/php-typo
+	79ab2a8 Merge pull request #447 from BlackIkeEagle/php-elseif
+	9665df2 php :: add elseif
+	ace1d94 php :: fix do{}while snippet typo, does not end on"
+	5035531 Changed zsh snippet for function
+	cc58c3b Merge pull request #444 from lbv/master
+	3a48031 Fix indentation
+	c81d7a6 Merge pull request #442 from deivid-rodriguez/update_debugging_snippets
+	eeeaa9e Merge pull request #443 from m1foley/ruby_alias_method_chain
+	ef63e32 Move alias_method_chain from Ruby to Rails snippets
+	3143461 Change variable name in Ruby alias_method_chain
+	ea32c91 Snippets for latests debuggers
+	ac1d4b9 Merge pull request #441 from m1foley/ruby_alias_method_chain
+	56826e4 Add alias_method_chain Ruby snippet
+	e3c2931 Merge pull request #439 from augensalat/master
+	04b3433 add snippet for until
+	89f8fa6 Bug fix: replace space indention by tab
+	b0b64fa Merge pull request #438 from liuyang1/patch-1
+	e0b428f remove last blank line for ONCE snippet
+	8ab05aa remove priority in the first line
+	935a6ba Merge pull request #437 from ebfe/rust
+	2f5af90 Update rust snippets
+	42dcf4d Merge pull request #435 from vincenthsu/master
+	ae27f37 Correct the indentation of the javascript-requirejs.snippets
+	13d8cab Merge pull request #414 from ohcibi/master
+	6f1eace Merge pull request #421 from ethervoid/pr_snippet_collision
+	d0e8361 Merge pull request #434 from feju/master
+	c2ba253 Fixes and CSS support
+	049934c Merge pull request #432 from cirosantilli/javascript-p
+	aeeb9b4 Merge pull request #433 from filipegiusti/add_th_to_html
+	bc75e48 Add <th> in html
+	08cce6d Merge pull request #431 from cirosantilli/readme
+	285d781 Rename node p to pipe.
+	ad79a9a README improvements: md style, typos, fix links.
+	21790c6 correct option
+	66df4bf Merge pull request #428 from heytitle/master
+	4f5a880 Merge pull request #429 from cirosantilli/tex-hyperlink
+	4bc54d6 Add tex hyperlink snippets.
+	fdcacb3 Remove useless placeholder
+	474fbee pull request review
+	6de139f Update snippets.
+	c1ac3e2 Merge pull request #427 from ondrowan/patch-1
+	6145a7c Fixed link to vim-addon-manager in readme
+	7036579 add pandoc snippet for UltiSnips
+	af5fad4 Merge pull request #425 from obaoba/master
+	f7d4aa5 adding Ada snippets
+	90723f6 Merge pull request #424 from X4fyr/master
+	1d5ccd6 Changed @todo to TODO
+	b3f19f7 Merge pull request #423 from ConnorAtherton/cla-node-snippets
+	9cf1d0e Modify js proto and add node snippets
+	e101634 Merge pull request #422 from cirosantilli/tex-listings
+	1972ec1 Add tex listings snippets.
+	5d012db More adecuate naming
+	4e13b69 Avoid collision with print_r snippet
+	d6d27d5 Merge pull request #420 from ethervoid/printr_snippet
+	1f5e1c5 Added print_r snippet in php
+	88a6e1a Merge pull request #419 from NickPapanastasiou/master
+	04207c9 added snippets/d.snippets
+	6a3c38f Merge pull request #418 from alex-tan/add-expect-to-be-to-jasmine
+	c194e8b Add expect(...).toBe(...) snippet for Jasmine
+	a5db05e Merge pull request #417 from abra/master
+	6a91a09 Add public class snippet
+	a6bdf9b Merge pull request #416 from idbrii/add-modeline
+	a93de17 Merge pull request #415 from joshaw/master
+	2f20b96 Add vim modeline snippets
+	4371963 Don't highlight selected text after wrapping
+	ae1631c Correct anchor
+	a7fc95d Add VISUAL to several snippets to allow wrapping selected text
+	a83775c Add snippets for requirejs module definitions for coffee- and javascript
+	6414b58 Merge pull request #406 from jasonsjones/master
+	bdea1df Merge pull request #413 from nickjj/master
+	74ff88e Merge pull request #412 from majjoha/rspec-snippets
+	fa2b5cb Merge pull request #409 from Oberon00/add-gitignore
+	506d5a3 Extend html in eruby
+	0f712a1 Move the RSpec snippets from rails.snippets to ruby.snippets.
+	23e1406 Merge pull request #408 from Oberon00/rst-fix-python3
+	71e770a rst: Replace xrange() by Python 3 compatible range().
+	e47ab15 Merge pull request #410 from Oberon00/rst-add-visual
+	0797108 rst: Add $VISUAL.
+	c5e6a6d .gitignore pyc files.
+	5eaa61a rst: Make has_cjk() Python 3 compatible.
+	84050b4 Merge pull request #407 from joshaw/master
+	2cc6493 Make trigger for "else" inline with recommendations.
+	1a2e6e8 Add html comment snippet
+	4cd2d9b Merge pull request #404 from okcompute/master
+	c6983fc Add python test snippets for assertIsNone and assertIsNotNone
+	0073aba Minitest snippets
+	e311671 Revised the Rails snippets according to Ruby code styles.
+	8bb5fae Revised the Ruby snippets to conform to Rubocop rules.
+	4cdf9db Changed double quotes to single quotes.
+	cbcc235 Starting to split Ruby and Rails snippets
+	66189ef Merge pull request #403 from ravl1084/testing
+	e9c9ea0 Merge branch 'testing' of https://github.com/ravl1084/vim-snippets into testing
+	d883a0c Correct spacing for vim highlighting
+	ede995c Correct spacing for vim highlighting
+	291f349 Merge pull request #400 from ZzAntares/patch-1
+	91a31b1 PHP Class snippet was working wrong
+	f76d935 Merge pull request #397 from lucc/bug/tex/newcommand
+	fe949a3 Escape backslash before tabstop.
+	0d31e68 Merge pull request #398 from Oberon00/patch-1
+	060fb09 Merge pull request #399 from kevinschaul/master
+	3dcb290 rst: Remove comment about requiring Python 2.4+.
+	6c0f3aa Add javascript console.debug snippet
+	bb35409 Fix and improve rst_char_len
+	19e3030 Merge pull request #396 from phux/master
+	f11ec0b Added basic class with namespace snippet.
+	43b272f name/array/bar in php's fun snippet is annoying, remove them
+	bece421 Merge pull request #395 from zauguin/master
+	753e0ae Added ${VISUAL} to C once snippet
+	368acf7 Merge pull request #392 from feju/master
+	4a63c78 Added b option, removed todo snippet.
+	db3a57e Initial commit
+	79a0442 Added ternary operator snippet
+	d6be69a Merge pull request #391 from 0hansen/master
+	0513b65 Added JUnit asserts and fail snippets
+	a84f6f3 Fixed singleton getInstance
+	fa45583 Merge pull request #390 from crzidea/patch-2
+	a59a765 Merge pull request #389 from crzidea/patch-1
+	0f02b64 Delete html_minimal.snippets
+	bbf7e13 Remove ; after "f"
+	2918d1e Merge pull request #387 from feju/master
+	ad8d939 Merge pull request #388 from opennota/master
+	6acd456 Add fori snippet for Go
+	40e9ffc Fixes and additions
+	f3421aa Merge pull request #386 from cirosantilli/anchor-clipboard
+	64a62d0 Merge branch 'master' of github.com:feju/vim-snippets
+	335637c Fix indentation
+	8161986 Fix indentation
+	cbbb5b1 Fix indentation
+	2c86dc7 Merge remote-tracking branch 'upstream/master'
+	7cd1221 Changed from spaces to tabs
+	405aff0 Merge pull request #385 from 0hansen/master
+	33803e6 Add ac Anchor from Clipboard.
+	106d004 Merge branch 'master' of https://github.com/honza/vim-snippets
+	ad254f8 Added singleton pattern
+	c24c99c Corrected constructor call
+	92575e1 Merge pull request #382 from lpil/master
+	7d055aa Merge pull request #383 from 0hansen/master
+	64a4d3c Added declarations for common collections: d.al = declare array list; d.hm = declare hash map; d.hs = declare hash set; d.st = declare stack
+	e5293e3 Added a trailing space to java snippets that will be followed by a space.
+	0ec9a04 Inserting filenames was not working for java snippets. Fixed by supplying the "$1" argument instead of an empty String.
+	e77a704 Merge pull request #380 from emzap79/rsnips
+	32d8eaf CSS pseudo elements & classes
+	b76fe5e add cleaned-up snippets for R
+	2626c45 Merge pull request #379 from mjipeo/master
+	ee3900a Replace spaces with tabs to avoid Python syntax error
+	9c7ecb5 Merge pull request #378 from Vorzard/master
+	1eeef03 Add AGPL3
+	a973f6b Initial commit
+	45bcd32 Merge pull request #373 from Sawyer47/rust-fix
+	b0733ed One new snippet and one small fix for Rust
+	c3db5be Merge pull request #372 from Sawyer47/rust-snippets
+	c80c281 New snippets and cleanup for Rust
+	8ee2c03 Merge pull request #371 from rsw0x/master
+	0100f9c Fixed final switch in the UltiSnippets snippet
+	5470b2f Merge pull request #368 from Nighoo/master
+	d2455bb Merge pull request #369 from majjoha/master
+	8c2dd2b Remove line breaks after snippets.
+	d5e0cc5 Add escaping of $
+	debd257 Merge pull request #367 from tebeka/go-test
+	9548538 description after trigger
+	fb0a6fc Better name
+	84d9764 Snippets for Go test and benchmark functions
+	4ed4091 Merge pull request #360 from lucc/descriptions
+	1406df6 Merge pull request #365 from joshaw/master
+	7adbe2e Merge branch 'master' of https://github.com/honza/vim-snippets
+	0326b5b Use more readable format for snippets including ending semi-colon.
+	3cb1383 Removed implicit $0 at end of snippent
+	8ee0f3a Merge pull request #364 from pgilad/patch-1
+	33830ae Added couple of $0 anchors where missing.
+	2438821 Added semi-colons to end of lines where missing.
+	e7f047b Update javascript.snippets
+	98b1b48 add b flag and edit placeholder
+	d0d1e59 Add useful javascript snippets
+	2672bde add snippet options to some snippets
+	27c2c2b add quotation marks
+	da157ef add snippet descriptions
+	85004a6 add snippet descriptions
+	9376b6e merging "contributing notes" into "Policies for contributors" - thanks lucc
+	2f5e1da fix
+	08afc0e allow discussing UltiSnips & snipmate snippets
+	31d2239 Merge pull request #362 from lucc/duplicates
+	7011d0f remove some duplicates
+	27189f6 Merge pull request #361 from lucc/vundle-api-change
+	71ac9c8 update vim snippet for plugin definition with Vundle.vim
+	9d8a666 Add snipmate style rust snippets
+	a066d60 document vs snipmate should be deprecated: not yet
+	8d619ac Indentation missing.
+	b57a972 Merge pull request #356 from lpil/readme
+	eed8762 Merge pull request #353 from dhilipsiva/master
+	0f7742f Merge pull request #357 from Mayeu/patch-1
+	5eec8a1 Fix the "fun" snippet definition
+	ae24661 Update README.md
+	8aea906 Correct readme link formatting
+	d43f278 Merge pull request #354 from vim-guru/master
+	2f9bb96 Replaced charset property to the html5 equivalent
+	519c3be Add Scheme snippets
+	995ab73 Merge pull request #352 from feju/master
+	18d24cb Indenting label in align environment
+	0561ba6 Fixed sapply snippet
+	ebbd6a8 Merge remote-tracking branch 'upstream/master'
+	fa8778d Merge pull request #350 from tinyladi/master
+	1d5adc3 add priority and inword option
+	a34551b add codeblock and inline code snippets to markdown.snippets
+	8fe8605 create pandoc.snippets & extend markdown.snippets
+	ec9a7a5 Merge pull request #348 from r4d2/master
+	74ef5cb Add R for and while snippets
+	5edbfec Fix syntax in R for loop
+	8efe43e Merge pull request #347 from kurko/add_brackets_to_ruby_let
+	ed8c39b Adds brackets to RSpec's let()
+	ebdc61f Merge pull request #346 from RyanPineo/master
+	b1af469 Rename angular config. Add angular controller.
+	ec97308 Add angular snippets.
+	c17df81 Merge pull request #345 from dcbishop/cleanups
+	7b5d7de Remove /* code */ placeholders from c, cpp and d.
+	28fc195 Add b option to rust snippets.
+	7af4b8f Remove /* code */ placeholders in rust.snippets.
+	dba38fc Add 'priority -50' to rust.snippets.
+	44d6f6a Merge pull request #344 from dbarnett/soy
+	f770dab Add "priority -50" to UltiSnips/soy.snippets
+	aefcab6 Changed frame snippet
+	66c2a0b Merge remote-tracking branch 'upstream/master'
+	0023135 Remove placeholder text in proto snippets.
+	9a7a600 Merge pull request #342 from WnP/patch-2
+	0b8a04f Add snippets for soy filetype (a.k.a. closure templates)
+	593a3b7 lkwg LocalKeyWordargumentGet
+	7f65658 remove useless $0
+	0370652 Merge pull request #343 from dbarnett/proto
+	cf39d41 rm unnecessary empty lines
+	3f3b2d5 Add tabstop for message body
+	e3c6399 Add type completions
+	280f775 Merge branch 'master' of https://github.com/honza/vim-snippets into proto
+	4b9f18c Add a common pythonx directory containing helper methods for snippets.
+	76a4d7e Add message and field snippets for proto filetype
+	8770132 Merge pull request #341 from pgilad/patch-1
+	fea2ddc key word argument get (kwg)
+	039a1c0 update meta charset in html
+	5db783d Merge pull request #340 from WnP/patch-1
+	fa6d71e add def overloading methode (dol)
+	9b6ee51 Merge pull request #339 from dcbishop/patch-1
+	513fad9 Add rust.snippets
+	e69e510 Merge pull request #338 from maxirobaina/master
+	0c4960a Fixed #335 - django snippet fix model save method
+	ecb5407 Merge pull request #337 from maxirobaina/master
+	40f1db9 Added new django fields types
+	e89d9af Merge pull request #334 from lavrin/master
+	8f9a7e3 Add gen_fsm and gen_event imported from vimerl
+	fcce90d Reindent gen_server export list
+	0d64ef6 Merge pull request #333 from jdavis/r
+	653a814 Fix snippets syntax error
+	0bcf724 Merge pull request #332 from jdavis/r
+	8c7bb5d Remove trigger from the end of the description
+	6b5d7d3 Remove duplicate snippet
+	d1f2316 Add a few more snippets, fix errors as per #332
+	6de3bb7 Merge pull request #329 from RyanPineo/master
+	bd8ef3d Tidy up some parts of r.snippets
+	87ea532 Bug fix for java case coercion helpers.
+	55887f0 Add R snippets to Rnoweb
+	53f8dd5 Add in r.snippets file
+	77bc9bd Add support for rnoweb filetype
+	3924bae Merge pull request #330 from brandonhilkert/master
+	6541994 Add asi => assert_includes
+	e5f3d6b Change java set/get snippets to use mixedCase.
+	ad8883d Fix java setter method param case, remove return.
+	2ca5883 Merge pull request #328 from hallaj/master
+	7b23338 Merge pull request #327 from ches/fixes
+	ba94750 Update python.snippets
+	0b673c3 Scala snippets fix
+	dbf5851 Merge pull request #326 from RyanPineo/master
+	1d41c71 Allow java else/elif to be expanded mid line.
+	3254ebf Merge pull request #320 from wongyouth/add_rails_methods
+	773c457 Merge pull request #325 from jdnavarro/master
+	fc65844 use m as prefix and fix conflicts with other snippets
+	88cd206 Add `OPTIONS_HADDOCK` snippet
+	4f4ad36 Merge pull request #324 from tUrG0n/patch-2
+	1ffdf75 Added Jade templates
+	3ebeb6b Merge pull request #323 from gfixler/master
+	16630a5 Fix spelling throughout UltiSnips/python.snippets
+	4b31551 Merge pull request #322 from RyanPineo/master
+	391d4fe Add python google style docstrings.
+	fc50b15 Syntax changes in accordance with Google.
+	734a8b3 Merge remote-tracking branch 'upstream/master'
+	e868e17 Merge pull request #321 from adoboPullRequests/master
+	db3b240 Fix PHP getter and setter UltiSnips snippet
+	dfc456e respect the  convention
+	7924eee change abbreviation to c for controller
+	9371c64 add rails callbak methods
+	b2a91d1 add options_for_select
+	ab0e535 Fixed indentation issue
+	7ce665e Fixed citation snippets and added citea and citey
+	56324b8 Added label snippet and added labels to ali and eq
+	8c1fadf fixed a syntax error in vim.snippets.
+	929acee Adjusted priority again.
+	215c567 Add back closing curly braces for puppet type snippets
+	b327c8a Remove credit line as requested.
+	39fe0b5 Adjusted priority.
+	85801ca Merge pull request #317 from Carif/master
+	a93d2e8 remove accept-charset attribute from form
+	2d63c6a change default method to post
+	9b0e054 Merge pull request #316 from honza/readme-fix
+	f723f0d Remove remaining of old block of code in README
+	d5ae1f7 changes for README from SirVers 32650 (last commit of last PR)
+	26ff066 dropping AUTHORS file
+	59dcc2b Brings current UltiSnips snippets into the repository.
+	3f7061a Merge pull request #305 from tUrG0n/master
+	c022251 Merge pull request #314 from Carif/perso
+	68cb7d8 remove border attribute for table tag
+	de15458 Merge pull request #312 from majjoha/master
+	190b3d4 Fix stupid typo.
+	6890f2d Merge pull request #310 from majjoha/master
+	66545e1 Add define snippet with no block.
+	736cdf0 Merge pull request #309 from Reen/master
+	5063a02 Remove space at end of \section
+	a7b6109 Merge pull request #308 from robertomiranda/patch-1
+	c7d3ce0 Add before_action snippet
+	9cf1363 typo, turn names into links
+	ad40a2e reference pull request because the work has been done
+	65e0266 fixes #307
+	9bee487 Added jsonp and jsons to coffee.snippet
+	bd04745 Moved all javascritp into a javascript. Otherwise, snipmate simply doesnt read them
+	c52b4d1 Converted jquery-js to jquery-coffee

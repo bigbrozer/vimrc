@@ -1,0 +1,13 @@
+submodules_log() {
+    submodules=$(git status vim/vimfiles/bundle --porcelain | cut -d" " -f 3-)
+
+    for sub in $submodules
+    do
+        old_commit=$(git diff $sub | grep '\-Subproject' | sed -r -e 's/.*\s(.*)$/\1/g')
+        new_commit=$(git diff $sub | grep '+Subproject' | sed -r -e 's/.*\s(.*)$/\1/g')
+        pushd "${sub}" >/dev/null
+        echo -e "\n### Changes for plugin $sub:\n"
+        GIT_PAGER="" git log --oneline ${old_commit}..${new_commit}
+        popd >/dev/null
+    done
+}
