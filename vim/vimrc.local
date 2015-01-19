@@ -167,11 +167,9 @@ let g:tagbar_autofocus = 1
 " NERDTree
 "
 nnoremap <F3> <ESC>:NERDTreeToggle<CR>
+
 " Switch CWD on root change
 let g:NERDTreeChDirMode = 2
-
-" Change CWD on each tree root change
-let NERDTreeChDirMode=2
 
 " Powerline
 "
