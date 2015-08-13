@@ -1,3 +1,27 @@
 system-vim-config: package-contains-vcs-control-file
 system-vim-config: extra-license-file
 system-vim-config: unusual-interpreter
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/client/powerline.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/scripts/powerline-config
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/scripts/powerline-daemon
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/scripts/powerline-lint
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/scripts/powerline-render
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/install.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/run_daemon_tests.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/run_lint_tests.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/run_python_tests.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/run_shell_tests.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/run_vim_tests.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/run_vterm_tests.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_commandt_plugin.vim
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_empty_encoding.old.vim
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_in_vterm/test.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_local_overrides.vim
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_nerdtree_plugin.vim
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_plugin_file.vim
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_shells/bgscript.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_shells/test.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_shells/waitpid.sh
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/powerline/tests/test_tabline.vim
+system-vim-config: script-not-executable usr/share/system-vim-config/bundle/vim-snippets/tests.sh
