@@ -1,3 +1,13 @@
+system-vim-config (1.6.0) trusty; urgency=medium
+
+  * Fix duplicate definition of NERDTreeChDirMode in vimrc.local.
+  * [bundle] powerline from Lokaltog is deprecated.
+  * [bundle] upgrade all bundles to their lastest upstream master branch.
+  * [rules] no need to fix perm for new powerline.
+  * [lintian] overrides powerline test files not executables.
+
+ -- Vincent BESANCON <besancon.vincent@gmail.com>  Thu, 13 Aug 2015 23:15:11 +0200
+
 system-vim-config (1.5.0) trusty; urgency=medium
 
   * Update all submodules to latest upstream origin/master.
